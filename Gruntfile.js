@@ -92,6 +92,9 @@ module.exports = function(grunt) {
                     "build/assets/js/global.js": [
                         "source/assets/js/global.js",
                     ],
+                    "build/assets/js/home.js": [
+                        "source/assets/js/home.js",
+                    ],
                 },
             },
         },
@@ -231,8 +234,6 @@ module.exports = function(grunt) {
         "copy",
         "cssmin",
         "cmq",
-        "useminPrepare",
-        "usemin",
-        "terser",
+        "terser"
     ]);
 };

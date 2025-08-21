@@ -157,7 +157,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	padding: 24px 40px;
 	background: #fff;
 }
@@ -191,9 +191,9 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	-ms-flex-pack: center;
-	    justify-content: center;
+	justify-content: center;
 	margin-bottom: 24px;
 }
 
@@ -207,7 +207,7 @@
 	font-size: 14px;
 	line-height: 16px;
 	-webkit-text-decoration-line: underline;
-	        text-decoration-line: underline;
+	text-decoration-line: underline;
 	white-space: nowrap;
 }
 
@@ -215,7 +215,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .loanTabs-section .loanTab-content-wrapper .loan-card {
@@ -245,9 +245,9 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 }
 
 .loanTabs-section .loanTab-content-wrapper .loan-card .knowMoreLink {
@@ -256,7 +256,7 @@
 	font-size: 14px;
 	line-height: 16px;
 	-webkit-text-decoration-line: underline;
-	        text-decoration-line: underline;
+	text-decoration-line: underline;
 	transition: all .5s ease;
 }
 
@@ -281,7 +281,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 	margin-bottom: 20px;
 }
 
@@ -294,7 +294,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-direction: column;
-	    flex-direction: column;
+	flex-direction: column;
 }
 
 .loan-offer-section .offer-top .offer-label .offer-label-title {
@@ -391,7 +391,7 @@
 	height: 182px;
 	background: #f9c623;
 	-ms-transform: rotate(19.271deg);
-	    transform: rotate(19.271deg);
+	transform: rotate(19.271deg);
 	z-index: 1;
 }
 
@@ -404,7 +404,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 }
 
 .utilities-section .utilities-title {
@@ -427,9 +427,9 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 	border-bottom: 1px solid #eaeaea;
 }
 
@@ -439,7 +439,7 @@
 	font-size: 14px;
 	line-height: 16px;
 	-webkit-text-decoration-line: underline;
-	        text-decoration-line: underline;
+	text-decoration-line: underline;
 }
 
 .utilities-section .bills-utilities-wrap .bills-utilities-body {
@@ -506,7 +506,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: center;
-	    justify-content: center;
+	justify-content: center;
 }
 
 .utilities-section .utility-view-all .all-utilities {
@@ -524,9 +524,9 @@
 	background: rgba(0,0,0,.8);
 	display: none;
 	-ms-flex-pack: center;
-	    justify-content: center;
+	justify-content: center;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 }
 
 .utilities-section .utilities-popup .alert-box {
@@ -585,12 +585,12 @@
 
 .utilities-section .utilities-popup .close-btn span:nth-child(1) {
 	-ms-transform: rotate(45deg) translate(2px, 2px);
-	    transform: rotate(45deg) translate(2px, 2px);
+	transform: rotate(45deg) translate(2px, 2px);
 }
 
 .utilities-section .utilities-popup .close-btn span:nth-child(2) {
 	-ms-transform: rotate(-45deg) translate(-2px, 1px);
-	    transform: rotate(-45deg) translate(-2px, 1px);
+	transform: rotate(-45deg) translate(-2px, 1px);
 }
 
 .impNotice-section {
@@ -607,9 +607,9 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 	margin-bottom: 20px;
 }
 
@@ -627,7 +627,7 @@
 	display: -ms-inline-flexbox;
 	display: inline-flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	margin-right: 45px;
 }
 
@@ -639,7 +639,7 @@
 	top: 8%;
 	right: -17px;
 	-ms-transform: rotate(-135deg);
-	    transform: rotate(-135deg);
+	transform: rotate(-135deg);
 	border-top: 2px solid #007bc9;
 	border-left: 2px solid #007bc9;
 	cursor: pointer;
@@ -649,7 +649,7 @@
 .impNotice-section .notice-head .shownoticeLink.active::after {
 	top: 30%;
 	-ms-transform: rotate(45deg);
-	    transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 .impNotice-section .notice-wrap {
@@ -709,7 +709,7 @@
 	font-size: 14px;
 	line-height: 16px;
 	-webkit-text-decoration-line: underline;
-	        text-decoration-line: underline;
+	text-decoration-line: underline;
 }
 
 .blogs-section {
@@ -720,9 +720,9 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 	-ms-flex-align: end;
-	    align-items: flex-end;
+	align-items: flex-end;
 	margin-bottom: 20px;
 }
 
@@ -731,7 +731,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 }
 
 .blogs-section .blog-head .sect-heading {
@@ -830,7 +830,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: center;
-	    justify-content: center;
+	justify-content: center;
 }
 
 .blogs-section .blogs-wrapper .all-blogs .view-all-blogs {
@@ -873,7 +873,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: start;
-	    align-items: flex-start;
+	align-items: flex-start;
 }
 
 .download-section .download-left .planetApp-logo {
@@ -990,7 +990,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .top-Loans-section .top-loans-content .loans-content-list li {
@@ -1008,7 +1008,7 @@
 	top: 50%;
 	right: -12px;
 	-ms-transform: translateY(-50%);
-	    transform: translateY(-50%);
+	transform: translateY(-50%);
 	width: 1px;
 	height: 16px;
 	background: #a4a4a4;
@@ -1148,7 +1148,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 }
 
 .loanTabs-section .loanTab-content-wrapper .loan-cal-wrap .cal-emi-wrap {
@@ -1180,7 +1180,7 @@
 
 .loanTabs-section .loanTab-content-wrapper .loan-card .loan-card-btn-wrapper {
 	-ms-flex-direction: column;
-	    flex-direction: column;
+	flex-direction: column;
 }
 
 .loanTabs-section .loanTab-content-wrapper .loan-card .knowMoreLink {
@@ -1293,9 +1293,9 @@
 
 .blogs-section .blog-head {
 	-ms-flex-direction: column;
-	    flex-direction: column;
+	flex-direction: column;
 	-ms-flex-align: start;
-	    align-items: flex-start;
+	align-items: flex-start;
 	margin-right: 16px;
 }
 
@@ -1313,7 +1313,7 @@
 
 .download-section .download-left {
 	-ms-flex-direction: column;
-	    flex-direction: column;
+	flex-direction: column;
 }
 
 .download-section .download-left .planetApp-logo {

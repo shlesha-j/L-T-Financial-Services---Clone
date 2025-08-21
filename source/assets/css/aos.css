@@ -1052,7 +1052,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 [data-aos=zoom-in] {
 	-ms-transform: scale(0.6);
-	    transform: scale(0.6);
+	transform: scale(0.6);
 }
 
 [data-aos=zoom-in-up] {
@@ -1073,7 +1073,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 [data-aos=zoom-out] {
 	-ms-transform: scale(1.2);
-	    transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 [data-aos=zoom-out-up] {

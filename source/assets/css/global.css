@@ -220,11 +220,11 @@ a {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 	position: absolute;
 	top: 50%;
 	-ms-transform: translateY(-50%);
-	    transform: translateY(-50%);
+	transform: translateY(-50%);
 	z-index: 10;
 }
 
@@ -302,7 +302,7 @@ a {
 	top: 20%;
 	right: -17px;
 	-ms-transform: translateY(-50%) rotate(136deg);
-	    transform: translateY(-50%) rotate(136deg);
+	transform: translateY(-50%) rotate(136deg);
 	border-top: 2px solid #007bc9;
 	border-left: 2px solid #007bc9;
 	cursor: pointer;
@@ -313,9 +313,9 @@ a {
 	display: -ms-inline-flexbox;
 	display: inline-flex;
 	-ms-flex-align: baseline;
-	    align-items: baseline;
+	align-items: baseline;
 	-ms-flex-pack: center;
-	    justify-content: center;
+	justify-content: center;
 	text-align: center;
 	font-family: "Frutiger LT Pro 55 Roman";
 	font-size: 16px;
@@ -373,16 +373,16 @@ header .navbar .header-wrapper {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 }
 
 header .download-set {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 }
 
 header .download-set .download-set-title {
@@ -404,7 +404,7 @@ header .share-Links {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 }
 
 header .share-Links .share-link-title {
@@ -439,9 +439,9 @@ header .header-bottom .bottom-left {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 }
 
 header .header-bottom .lang-translate {
@@ -457,7 +457,7 @@ header .header-bottom .lang-translate .translate-box {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-direction: column;
-	    flex-direction: column;
+	flex-direction: column;
 }
 
 header .header-bottom .lang-translate .translate-box span {
@@ -503,7 +503,7 @@ header .header-bottom .bottom-right {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: end;
-	    justify-content: flex-end;
+	justify-content: flex-end;
 }
 
 header .header-bottom .bottom-right .nav-links {
@@ -514,9 +514,9 @@ header .header-bottom .bottom-right .header-Btn-grp {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	-ms-flex-pack: center;
-	    justify-content: center;
+	justify-content: center;
 }
 
 header .header-bottom .bottom-right .navLink-List {
@@ -556,7 +556,7 @@ header .nav-item .dropdown-menu {
 	top: 57px;
 	left: 50%;
 	-ms-transform: translateX(-50%);
-	    transform: translateX(-50%);
+	transform: translateX(-50%);
 	transition: opacity .3s ease,visibility .3s ease;
 	z-index: -1;
 	display: inline-block;
@@ -576,9 +576,9 @@ header .nav-item .dropdown-menu .dropdown-list {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-direction: column;
-	    flex-direction: column;
+	flex-direction: column;
 	-ms-flex-align: start;
-	    align-items: flex-start;
+	align-items: flex-start;
 }
 
 header .nav-item .dropdown-item a {
@@ -611,13 +611,13 @@ header .ham-menu.active {
 header .ham-menu.active span:nth-child(1) {
 	width: 20px;
 	-ms-transform: rotate(45deg) translate(2px, 7px);
-	    transform: rotate(45deg) translate(2px, 7px);
+	transform: rotate(45deg) translate(2px, 7px);
 }
 
 header .ham-menu.active span:nth-child(2) {
 	width: 20px;
 	-ms-transform: rotate(-45deg) translate(-3px, -2px);
-	    transform: rotate(-45deg) translate(-3px, -2px);
+	transform: rotate(-45deg) translate(-3px, -2px);
 }
 
 header .ham-menu span {
@@ -656,7 +656,7 @@ header .quick-links-wrap {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-direction: column;
-	    flex-direction: column;
+	flex-direction: column;
 	z-index: 1000;
 }
 
@@ -667,7 +667,7 @@ header .quick-links-wrap .links {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-direction: row;
-	    flex-direction: row;
+	flex-direction: row;
 }
 
 header .quick-links-wrap .links p {
@@ -677,9 +677,9 @@ header .quick-links-wrap .links p {
 	display: -ms-inline-flexbox;
 	display: inline-flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	-ms-flex-direction: column;
-	    flex-direction: column;
+	flex-direction: column;
 }
 
 header .quick-links-wrap .chatNow {
@@ -697,20 +697,20 @@ header .quick-links-wrap .quick-link-toggle {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: start;
-	    align-items: flex-start;
+	align-items: flex-start;
 	transition: all 1s ease;
 }
 
 header .quick-links-wrap .quick-link-toggle:hover {
 	-ms-transform: translateX(-100px);
-	    transform: translateX(-100px);
+	transform: translateX(-100px);
 }
 
 header .quick-links-wrap .quickLinks {
 	background: #007bc9;
 	color: #fff;
 	-ms-transform: translateX(0);
-	    transform: translateX(0);
+	transform: translateX(0);
 	transition: all 1s ease;
 }
 
@@ -719,7 +719,7 @@ header .quick-links-wrap .inner-quickLinks {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-direction: column;
-	    flex-direction: column;
+	flex-direction: column;
 	position: relative;
 	bottom: 0;
 	border-radius: 0 0 6px 6px;
@@ -752,7 +752,7 @@ footer .footer-wrap {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 	margin-bottom: 40px;
 }
 
@@ -815,7 +815,7 @@ footer .footer-wrap .footer-sub-links {
 	top: 50%;
 	left: 76%;
 	-ms-transform: translateY(-3%);
-	    transform: translateY(-3%);
+	transform: translateY(-3%);
 	background: #f1f9fc;
 	padding: 10px;
 	z-index: 2;
@@ -870,9 +870,9 @@ footer .footer-wrap .social-icons a {
 	display: -ms-inline-flexbox;
 	display: inline-flex;
 	-ms-flex-pack: center;
-	    justify-content: center;
+	justify-content: center;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	border: 1px solid rgba(0,0,0,.04);
 	background: rgba(249,245,240,.09);
 	transition: all .5s ease;
@@ -919,7 +919,7 @@ footer .footer-bottom {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 }
 
 footer .footer-bottom p {
@@ -958,9 +958,9 @@ footer #scroll-to-top {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: center;
-	    justify-content: center;
+	justify-content: center;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 }
 
 footer #scroll-to-top.show {
@@ -1066,7 +1066,7 @@ header .header-bottom {
 
 header .header-bottom .bottom-left {
 	-ms-flex-pack: unset;
-	    justify-content: unset;
+	justify-content: unset;
 }
 
 header .header-bottom .lang-translate {
@@ -1086,11 +1086,11 @@ header .header-bottom .bottom-right .nav-links {
 	backdrop-filter: blur(10px);
 	background: #fff;
 	-ms-flex-direction: column;
-	    flex-direction: column;
+	flex-direction: column;
 	-ms-flex-align: start;
-	    align-items: flex-start;
+	align-items: flex-start;
 	-ms-flex-pack: start;
-	    justify-content: flex-start;
+	justify-content: flex-start;
 	padding: 80px 24px 24px 24px;
 	box-shadow: -2px 0 10px rgba(0,0,0,.1);
 	transition: left .3s ease;
@@ -1107,9 +1107,9 @@ header .header-bottom .bottom-right .nav-links.active body {
 
 header .header-bottom .bottom-right .navLink-List {
 	-ms-flex-direction: column;
-	    flex-direction: column;
+	flex-direction: column;
 	-ms-flex-align: start;
-	    align-items: flex-start;
+	align-items: flex-start;
 }
 
 header .ham-menu {
@@ -1130,9 +1130,9 @@ header .mobile-search-Btn {
 	display: -ms-inline-flexbox;
 	display: inline-flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	-ms-flex-pack: center;
-	    justify-content: center;
+	justify-content: center;
 	margin-right: 15px;
 }
 
@@ -1146,7 +1146,7 @@ footer {
 
 footer .footer-wrap {
 	-ms-flex-direction: column;
-	    flex-direction: column;
+	flex-direction: column;
 	margin-bottom: 24px;
 }
 
@@ -1219,7 +1219,7 @@ footer .footer-wrap .footer-links li::after {
 	top: 20%;
 	right: 13px;
 	-ms-transform: translateY(-50%) rotate(136deg);
-	    transform: translateY(-50%) rotate(136deg);
+	transform: translateY(-50%) rotate(136deg);
 	border-top: 1px solid #1c1b1f;
 	border-left: 1px solid #1c1b1f;
 	cursor: pointer;
@@ -1249,9 +1249,9 @@ footer .footer-wrap .office-contact {
 
 footer .footer-bottom {
 	-ms-flex-direction: column-reverse;
-	    flex-direction: column-reverse;
+	flex-direction: column-reverse;
 	-ms-flex-pack: unset;
-	    justify-content: unset;
+	justify-content: unset;
 }
 
 footer .footer-bottom .policy-links {
