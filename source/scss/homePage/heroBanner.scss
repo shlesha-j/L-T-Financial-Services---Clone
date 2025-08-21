@@ -1,0 +1,151 @@
+@import "../global/mixins",
+"../global/variables";
+
+.banner-section {
+   padding: 0;
+   margin-top: 107px;
+   @include respond-to(laptop){
+      margin-top: 100px;
+   }
+   @include respond-to(large){
+      margin-top: 90px;
+   }
+
+   .bannerSwiper {
+      .swiper-slide {
+         img {
+            width: 100%;
+            height: auto;
+            @include respond-to(small){
+               max-height: 160px;
+               object-fit: cover;
+            }
+         }
+      }
+
+      .swiper-pagination-bullet {
+         background: $white;
+         opacity: unset;
+         @include transition(all, 0.3s, ease);
+      }
+
+      .swiper-pagination-bullet-active {
+         // background: $primary-color;
+         background: transparent;
+         width: 56px;
+         border-radius: 20px;
+         border: 1px solid $primary-color;
+         position: relative;
+         @include transition(all, 0.6s, ease);
+
+         &::before {
+            content: " ";
+            // position: absolute;
+            // top: 0;
+            // left: 0;
+            width: 40px;
+            height: 100%;
+            display: block;
+            border-radius: 20px;
+            background: $primary-color;
+            @include transition(all, 0.6s, ease);
+         }
+
+      }
+
+      .hero-content {
+         position: absolute;
+         top: 15%;
+         width: 720px;
+
+         @include respond-to(large) {
+            top: 20%;
+         }
+
+         @include respond-to(small) {
+            top: 16%;
+         }
+         @include respond-to(xssmall) {
+            top: 3%;
+         }
+
+         .hero-title {
+            color: $white;
+            font-family: $font-Pro-BlackCn;
+            font-size: 56px;
+            line-height: 59px;
+            letter-spacing: -0.56px;
+            margin-bottom: 12px;
+
+            @include respond-to(mdlaptop) {
+               font-size: 40px;
+               line-height: 44px;
+            }
+
+            @include respond-to(large) {
+               font-size: 25px;
+               line-height: 44px;
+            }
+
+            @include respond-to(small) {
+               font-size: 20px;
+               line-height: 24px;
+               width: 230px;
+               margin-bottom: 15px;
+            }
+         }
+
+         .hero-subtitle {
+            color: $white;
+            font-family: $font-Pro-Roman;
+            font-size: 20px;
+            line-height: 26px;
+            letter-spacing: -0.2px;
+            margin-bottom: 50px;
+
+            @include respond-to(mdlaptop) {
+               margin-bottom: 25px;
+            }
+
+            @include respond-to(mediumtab) {
+               margin-bottom: 25px;
+            }
+
+            @include respond-to(large) {
+               font-size: 18px;
+               line-height: 20px;
+               letter-spacing: -0.2px;
+               margin-bottom: 19px;
+            }
+
+            @include respond-to(medium) {
+               display: none;
+            }
+         }
+      }
+
+      .banner-pagination {
+         bottom: 20%;
+         left: 50%;
+         width: unset;
+         @include rounded(60px);
+         background: rgba(0, 0, 0, 0.25);
+         backdrop-filter: blur(7px);
+
+         @include respond-to(large) {
+            bottom: 40%;
+            text-align: right;
+            right: 35px;
+            left: unset;
+         }
+         @include respond-to(mobile){
+            bottom: 24%;
+         }
+         @include respond-to(xssmall){
+            bottom: 20%;
+         }
+      }
+   }
+
+
+}

@@ -1,0 +1,129 @@
+/*media query variables*/
+$xsphone: 412px;
+$mobile: 490px;
+$phones: 575px;
+$tablets: 767px;
+$mid-tablets: 1024px;
+$tab: 768px;
+$desktops: 991px;
+$mid-tablets: 1024px;
+$large-desktops: 1199px;
+$md-laptop: 1280px;
+$laptop: 1366px;
+
+
+
+@mixin blur($value) {
+  -webkit-filter: blur($value);
+  -ms-filter: blur($value);
+  -o-filter: blur($value);
+  filter: blur($value);
+  -ms-filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+}
+
+@mixin rounded($value) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+}
+
+@mixin transition($prop, $time, $easing) {
+  -webkit-transition: $prop $time $easing;
+  -moz-transition: $prop $time $easing;
+  -ms-transition: $prop $time $easing;
+  -o-transition: $prop $time $easing;
+  transition: $prop $time $easing;
+}
+
+@mixin transform($prop) {
+  -webkit-transform: $prop;
+  -moz-transform: $prop;
+  -ms-transform: $prop;
+  -o-transform: $prop;
+  transform: $prop;
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: "") {
+  -webkit-box-shadow: $top $left $blur $color #{$inset};
+  -moz-box-shadow: $top $left $blur $color #{$inset};
+  box-shadow: $top $left $blur $color #{$inset};
+}
+
+@mixin no-box-shadow() {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+@mixin respond-to($media) {
+  @if $media==xssmall {
+    /*412px*/
+    @media only screen and (max-width: $xsphone) {
+      @content;
+    }
+  }
+
+  @if $media==mobile {
+    /*490px*/
+    @media only screen and (max-width: $mobile) {
+      @content;
+    }
+  }
+
+  @if $media==small {
+    /*575px*/
+    @media only screen and (max-width: $phones) {
+      @content;
+    }
+  }
+
+  @if $media==medium {
+    /*767px*/
+    @media only screen and (max-width: $tablets) {
+      @content;
+    }
+  }
+
+  @if $media==tabonly {
+    /*768  to 991*/
+    @media only screen and (min-width: $tab) and (max-width: $desktops) {
+      @content;
+    }
+  }
+
+  @if $media==large {
+    /*991px*/
+    @media only screen and (max-width: $desktops) {
+      @content;
+    }
+  }
+
+  @if $media==mediumtab {
+    /*1024px*/
+    @media only screen and (max-width: $mid-tablets) {
+      @content;
+    }
+  }
+
+  @if $media==extralarge {
+    /*1199px*/
+    @media only screen and (max-width: $large-desktops) {
+      @content;
+    }
+  }
+
+  @if $media==mdlaptop {
+    /*1280px*/
+    @media only screen and (max-width: $md-laptop) {
+      @content;
+    }
+  }
+
+  @if $media==laptop {
+    /*1366px*/
+    @media only screen and (max-width: $laptop) {
+      @content;
+    }
+  }
+
+}

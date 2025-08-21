@@ -1,0 +1,142 @@
+@import "../global/mixins",
+"../global/variables";
+
+.impNotice-section {
+    background-color: #FFEEC3;
+    padding: 30px 0;
+    height: 106px;
+
+    &.expanded {
+        height: 180px;
+    }
+
+    .container {
+        @include respond-to(medium) {
+            padding-right: 0;
+        }
+    }
+
+    .notice-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        .sect-heading {
+            margin-bottom: 0;
+        }
+
+        .shownoticeLink {
+            color: $highlight;
+            font-family: $font-bold;
+            font-size: 14px;
+            line-height: 16px;
+            position: relative;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            margin-right: 45px;
+
+            &::after {
+                position: absolute;
+                content: "";
+                width: 7px;
+                height: 7px;
+                top: 8%;
+                right: -17px;
+                transform: rotate(-135deg); // default arrow direction
+                border-top: 2px solid $highlight;
+                border-left: 2px solid $highlight;
+                cursor: pointer;
+                @include transition(all, 0.3s, ease);
+            }
+
+            &.active::after {
+                top: 30%;
+                transform: rotate(45deg);
+            }
+        }
+
+    }
+
+    // .notice-wrap {
+    //     position: relative;
+    //     overflow: visible;
+    //     margin-bottom: -115px;
+    // }
+    .notice-wrap {
+        position: relative;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        display: none;
+        // visibility: hidden;
+
+        &.visible {
+            max-height: 62.5rem;
+            opacity: 1;
+            overflow: visible;
+            display: block;
+            transition: all 5s ease;
+            margin-bottom: -90px;
+        }
+    }
+
+    .notice-slide {
+        position: relative;
+        @include rounded(8px);
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            @include rounded(8px);
+
+            @include respond-to(extralarge) {
+                height: 120px;
+            }
+        }
+
+        .notice-info {
+            position: absolute;
+            top: 27px;
+            left: 30px;
+
+            .notice-title {
+                color: $white;
+                font-family: $font-Pro-BlackCn;
+                font-size: 20px;
+                letter-spacing: -0.2px;
+                margin-bottom: 4px;
+
+                @include respond-to(small) {
+                    font-size: 16px;
+                }
+            }
+
+            .notice-desc {
+                color: $white;
+                font-family: $font-Pro-Roman;
+                font-size: 12px;
+                letter-spacing: -0.12px;
+                margin-bottom: 10px;
+
+                @include respond-to(small) {
+                    font-size: 10px;
+                }
+            }
+
+            .readMore-noticeLink {
+                color: $white;
+                font-family: $font-Pro-Roman;
+                font-size: 14px;
+                line-height: 16px;
+                text-decoration-line: underline;
+
+                @include respond-to(small) {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

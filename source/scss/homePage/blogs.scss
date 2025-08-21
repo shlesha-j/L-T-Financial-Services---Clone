@@ -1,0 +1,205 @@
+@import "../global/mixins",
+"../global/variables";
+
+.blogs-section {
+    background-color: #F6F7F8;
+    // padding-top: 98px;
+
+    .container {
+        @include respond-to(medium) {
+            padding-right: 0;
+        }
+    }
+
+    .blog-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 20px;
+
+        @include respond-to(medium) {
+            flex-direction: column;
+            align-items: flex-start;
+            margin-right: 16px;
+        }
+
+        .blog-top {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .sect-heading {
+            margin-bottom: 0;
+
+            @include respond-to(medium) {
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    .blog-tabs-grp {
+        display: flex;
+
+        @include respond-to(small) {
+            width: 100%;
+        }
+
+        .blog-tab {
+            padding: 6px 13px;
+            @include rounded(4px);
+            @include transition(all, 0.5s, ease);
+            background: $Tertiary-Grey-08;
+
+            @include respond-to(small) {
+                width: 50%;
+                text-align: center;
+            }
+
+            &.active {
+                background: $black;
+            }
+
+            &.active a {
+                color: $white;
+            }
+
+            a {
+                color: $Tertiary-Grey-03;
+                font-family: $font-Pro-Roman;
+                font-size: 10px;
+                letter-spacing: 0.4px;
+                text-transform: uppercase;
+
+                &.active {
+                    color: $white;
+                }
+            }
+        }
+    }
+
+    .blogs-wrapper {
+        position: relative;
+        overflow: visible;
+        display: none;
+
+        &.active {
+            display: block;
+        }
+
+        .swiper {
+            margin-bottom: 32px;
+
+            @include respond-to(medium) {
+                margin-bottom: 0;
+            }
+        }
+
+        .blog-card {
+            @include respond-to(large) {
+                display: flex;
+                padding: 12px;
+                background: $white;
+                @include rounded(8px);
+                border: 1px solid $Tertiary-Grey-08;
+            }
+
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                min-width: 80px;
+                @include rounded(8px);
+            }
+
+            picture {
+                @include respond-to(large) {
+                    // width: 30%;
+                    margin-right: 12px;
+                }
+            }
+        }
+
+        .blog-info {
+            position: absolute;
+            bottom: 22px;
+            left: 20px;
+
+            @include respond-to(large) {
+                position: unset;
+            }
+
+            .blog-label {
+                color: $black;
+                font-family: $font-Pro-BlackCn;
+                font-size: 8px;
+                line-height: 18px;
+                letter-spacing: 0.4px;
+                text-transform: uppercase;
+                padding: 6px;
+                @include rounded(4px);
+            }
+
+            .blog-title {
+                color: $white;
+                font-family: $font-Pro-BlackCn;
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: -0.18px;
+                margin: 12px 0;
+
+                @include respond-to(large) {
+                    color: $black;
+                    margin: 8px 0;
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+
+            .blog-date {
+                color: $white;
+                font-family: $font-Pro-Condensed-normal;
+                font-size: 12px;
+                line-height: 18px;
+                letter-spacing: -0.12px;
+
+                @include respond-to(large) {
+                    color: $black;
+                }
+            }
+        }
+
+        .all-blogs {
+            display: flex;
+            justify-content: center;
+
+            .view-all-blogs {
+                max-width: 384px;
+                width: 100%;
+
+                @include respond-to(medium) {
+                    display: none;
+                }
+
+                @include respond-to(mediumtab) {
+                    max-width: 250px;
+                }
+            }
+        }
+
+        .yellow-bg {
+            background-color: #FFEEC3;
+        }
+
+        .blue-bg {
+            background-color: #B9E1EE;
+        }
+
+        .green-bg {
+            background-color: #A9E5B3;
+        }
+        .swiper-navigation-btns {
+            top: 37%;
+        }
+    }
+}

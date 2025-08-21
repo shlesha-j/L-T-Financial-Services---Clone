@@ -1,0 +1,53 @@
+@import "../global/mixins",
+"../global/variables";
+
+.btn {
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+    font-family: $font-Pro-Black;
+    // align-self: baseline;
+    font-size: 16px;
+    line-height: normal;
+    padding: 13px 24px;
+    color: $black;
+    border: 1px solid transparent;
+    @include rounded(4px);
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+
+    @include respond-to(laptop) {
+        font-size: 14px;
+    }
+    @include respond-to(large) {
+        font-size: 12px;
+        padding: 8px 27px;
+    }
+}
+
+.btn-primary {
+    background: $primary-color;
+    color: $black;
+    border: none;
+    padding: 11px 42px;
+    cursor: pointer;
+    @include transition(all, .3s, ease);
+    &:hover {
+        background: #f89626;
+    }
+    @include respond-to(small){
+        padding: 6px 28px;
+    }
+}
+
+.btn-outline {
+    background: $white;
+    border: 1px solid $Tertiary-Grey-06;
+    @include transition(all, .3s, ease);
+
+    &:hover{
+        background-color: #f6f7f8;
+    }
+}

@@ -1,0 +1,108 @@
+@import "../global/mixins",
+"../global/variables";
+
+.top-Loans-section {
+    background: $black;
+
+    .loan-title {
+        color: #BFBFBF;
+        font-family: $font-Pro-BlackCn;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.48px;
+        margin-bottom: 16px;
+
+        @include respond-to(large) {
+            font-size: 22px;
+            line-height: 24px;
+        }
+    }
+
+    .top-loans-tab-grp {
+        display: flex;
+        margin-bottom: 20px;
+        overflow-x: auto;
+        scrollbar-width: none;
+
+        @include respond-to(large) {
+            margin-bottom: 16px;
+        }
+
+
+        .top-loan-tab {
+            padding: 12px 30px;
+            @include rounded(100px);
+            border: 1px solid #A4A4A4;
+            background: $Tertiary-Grey-01;
+            cursor: pointer;
+            @include transition(all, 0.5s, ease);
+            @include respond-to(small){
+                padding: 9px 30px;
+            }
+            &.active {
+                background: $white;
+            }
+
+            &.active a {
+                color: $black;
+            }
+
+            a {
+                color: $white;
+                font-family: $font-Pro-BoldCn;
+                font-size: 10px;
+                letter-spacing: 0.4px;
+                text-transform: uppercase;
+                white-space: nowrap;
+            }
+
+            &:not(:last-child) {
+                margin-right: 11px;
+            }
+        }
+    }
+
+    .top-loans-content {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+
+        .loans-content-list {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                position: relative;
+
+                &:not(:last-child) {
+                    margin-right: 24px;
+                    margin-bottom: 12px;
+                }
+
+                &:not(:last-child)::after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    right: -12px;
+                    transform: translateY(-50%);
+                    width: 1px;
+                    height: 16px;
+                    background: #a4a4a4;
+                }
+                a {
+                    color: $Grey3;
+                    font-family: $font-Pro-Roman;
+                    font-size: 16px;
+                    line-height: 16px;
+                    letter-spacing: -0.32px;
+                    @include respond-to(large) {
+                        font-size: 12px;
+                        line-height: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

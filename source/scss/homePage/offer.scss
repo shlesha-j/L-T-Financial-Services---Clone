@@ -1,0 +1,146 @@
+@import "../global/mixins",
+"../global/variables";
+
+.loan-offer-section {
+    background: $Tertiary-Grey-01;
+    padding-bottom: 55px;
+
+    .container {
+        @include respond-to(small) {
+            padding-right: 0;
+        }
+    }
+
+    .offer-top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        @include respond-to(small) {
+            margin-right: 16px;
+        }
+        .offer-heading {
+            color: $white;
+            margin-bottom: 0;
+        }
+
+        .offer-label {
+            display: flex;
+            flex-direction: column;
+
+            .offer-label-title {
+                color: $primary-color;
+                font-family: $font-Pro-BlackCn;
+                font-size: 22px;
+                margin-bottom: 6px;
+            }
+
+            .offer-availability {
+                color: $Tertiary-Grey-06;
+                font-family: $font-Pro-Roman;
+                font-size: 12px;
+                letter-spacing: -0.12px;
+            }
+        }
+    }
+
+    .loan-offer-wrap {
+        position: relative;
+        overflow: visible;
+        margin-bottom: -127px;
+
+        .loan-pagination {
+            position: absolute;
+            bottom: -40px;
+            width: unset;
+            left: 50%;
+            @include rounded(60px);
+            background: rgba(0, 0, 0, 0.05);
+            backdrop-filter: blur(7px);
+
+            .swiper-pagination-bullet {
+                background-color: rgb(44, 44, 44);
+            }
+
+            .swiper-pagination-bullet-active {
+                background: $black;
+            }
+
+            @include respond-to(large) {
+                display: none
+            }
+        }
+    }
+
+    .loan-offer-info {
+        @include respond-to(small) {
+            width: 164px;
+        }
+    }
+
+    .loan-offer-card {
+        @include rounded(8px);
+        background: #71C8E6;
+        padding: 16px;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+
+        .loan-offer-img {
+            width: 40%;
+
+            .offer-image {
+                position: absolute;
+                bottom: 0;
+                right: 10px;
+                z-index: 2;
+            }
+        }
+    }
+
+    .offer-head {
+        color: $black;
+        font-family: $font-Pro-BlackCn;
+        font-size: 18px;
+        text-transform: capitalize;
+        margin-bottom: 4px;
+    }
+
+    .offer-desc {
+        color: $black;
+        font-family: $font-Pro-Roman;
+        font-size: 12px;
+        line-height: 16.4px;
+        margin-bottom: 25px;
+    }
+
+    .shadow-background {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 12.125rem;
+        height: 3.4375rem;
+        background: linear-gradient(120deg, rgba(255, 255, 255, .3) 79%, transparent 50%);
+        z-index: 1;
+        @include rounded(0 0 0 8px);
+
+        @include respond-to(mobile) {
+            width: 10.025rem;
+        }
+    }
+
+    .yellow-line {
+        position: absolute;
+        top: -20px;
+        right: 32px;
+        width: 73.059px;
+        height: 182px;
+        background: $primary-color;
+        transform: rotate(19.271deg);
+        z-index: 1;
+
+        @include respond-to(small) {
+            right: 23px;
+        }
+
+    }
+}

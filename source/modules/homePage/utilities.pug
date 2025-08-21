@@ -1,0 +1,80 @@
+section.utilities-section
+    .container 
+        .utility-head
+            h2.sect-heading(tabindex="0") Utilities
+            a.mobile-viewAll-Link(href="javascript:void(0)") View All
+        .bills-utilities-wrap 
+            .bills-utilities-head 
+                h4.utilities-title(tabindex="0") Bills & payments
+                a.viewAllLink(href="javascript:void(0)") View All
+            .bills-utilities-body 
+                a.bills-utilities-content(href="javascript:void(0)" tabindex="0")
+                    img.lazy(src="" data-src="assets/images/Mobile-recharge.svg" alt="Mobile-recharge-image" width="40" height="40")
+                    p Phone bill 
+                a.bills-utilities-content(href="javascript:void(0)" tabindex="0")
+                    img.lazy(src="" data-src="assets/images/recharge.svg" alt="recharge-image" width="40" height="40")
+                    p Recharge  
+                a.bills-utilities-content(href="javascript:void(0)" tabindex="0")
+                    img.lazy(src="" data-src="assets/images/gas.svg" alt="gas-image" width="40" height="40" )
+                    p Gas  
+                a.bills-utilities-content(href="javascript:void(0)" tabindex="0")
+                    img.lazy(src="" data-src="assets/images/electricity.svg" alt="electricity-image" width="40" height="40")
+                    p Electricity  
+                a.bills-utilities-content(href="javascript:void(0)" tabindex="0")
+                    img.lazy(src="" data-src="assets/images/router.svg" alt="router-image" width="40" height="40")
+                    p Broadband   
+
+        .swiper.utility-swiper 
+            .swiper-wrapper
+                .swiper-slide 
+                    .utilities-card
+                        .utilities-card-desc
+                            h4.utilities-title(tabindex="0") Two wheeler marketplace
+                            button.btn.btn-outline.utilitiesBtn(type="button") Visit marketplace
+                        img.lazy(src="" data-src="assets/images/utilities-img2.webp" alt="two-wheeler-image" width="87" height="72" tabindex="0") 
+                .swiper-slide 
+                    .utilities-card
+                        .utilities-card-desc
+                            h4.utilities-title(tabindex="0") Credit score
+                            button.btn.btn-outline.utilitiesBtn(type="button") Visit marketplace
+                        img.lazy(src="" data-src="assets/images/utilities-img3.webp" alt="CreditScore-image" width="87" height="72" tabindex="0")
+                .swiper-slide
+                    .utilities-card
+                        .utilities-card-desc
+                            h4.utilities-title(tabindex="0") Spend analyser
+                            button.btn.btn-outline.utilitiesBtn(type="button") Visit marketplace
+                        img.lazy(src="" data-src="assets/images/utilities-img4.webp" alt="Spped-analyser-image" width="87" height="72" tabindex="0")
+                .swiper-slide 
+                    .utilities-card
+                        .utilities-card-desc
+                            h4.utilities-title(tabindex="0") Farm Marketplace
+                            button.btn.btn-outline.utilitiesBtn(type="button") Visit marketplace
+                        img.lazy(src="" data-src="assets/images/utilities-img1.webp" alt="Farm-market-place" width="87" height="72" tabindex="0")
+                 
+        .utility-view-all
+            button.btn.btn-primary.all-utilities(id="openAlertBtn") View all utilities     
+
+        .utilities-popup(id="utility-popup" role="alertdialog" aria-modal="true" aria-labelledby="alertTitle" aria-describedby="alertDesc" tabindex="-1")
+            .alert-box(role="document")
+                p.subtitle(tabindex="0") All utilites 
+                p.filling-text(tabindex="0") Here’s the complete list of utilities you can access:
+                ul.utlities-list 
+                    li 
+                        a(href="javascript:void(0)" tabindex="0") Phone bill 
+                    li 
+                        a(href="javascript:void(0)" tabindex="0") Recharge 
+                    li 
+                        a(href="javascript:void(0)" tabindex="0") Gas 
+                    li 
+                        a(href="javascript:void(0)" tabindex="0") Electricity 
+                    li 
+                        a(href="javascript:void(0)" tabindex="0") Broadband 
+                    li 
+                        a(href="javascript:void(0)" tabindex="0") Two wheeler marketplace
+                button.btn.btn-outline.agree-btn Agree 
+                a.close-btn(href="javascript:void(0)" id="closeAlertBtn")
+                    span
+                    span   
+
+
+

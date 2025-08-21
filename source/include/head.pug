@@ -1,0 +1,52 @@
+head
+	title
+		| #{Page.title}
+	meta(charset="utf-8")
+	meta(http-equiv="X-UA-Compatible", content="IE=edge")
+	meta(name="description", content=Meta.description)
+	meta(name="keywords", content=Meta.keywords)
+	meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+	link(href='assets/images/eDex.webp', type="image/ico/gif" sizes="16x16" rel='shortcut icon')
+
+	link(rel="preload", as="style", href="assets/css/swiper-bundle.css")
+	link(rel="preload", as="style", href="assets/css/aos.css")
+	link(rel="preload", as="style", href="assets/css/font-awsome.css")  
+	link(rel="preload", as="style", href="assets/css/global.css")
+	//- link(rel="preload", as="style", href="assets/css/font-awsome.css")
+ 
+	// build:css assets/css/swiper-bundle.css
+	link(rel="stylesheet", href="assets/css/swiper-bundle.css")
+	// endbuild
+
+	// build:css assets/css/aos.css
+	link(rel="stylesheet", href="assets/css/aos.css")
+	// endbuild
+
+	// build:css assets/css/font-awsome.css
+	link(rel="stylesheet", href="assets/css/font-awsome.css")
+	// endbuild
+	
+	// build:css assets/css/global.css
+	link(rel="stylesheet", href="assets/css/global.css")
+	// endbuild
+
+	// build:css assets/css/global.css
+	link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css")
+	// endbuild
+
+	
+
+	
+	//- link(rel="stylesheet", href="assets/css/font-awsome.css")
+
+
+	if Page.section=="homePage"
+		link(rel="preload", as="style", href="assets/css/homePage.css")
+
+		// build:css assets/css/homePage.css
+		link(rel="stylesheet", href="assets/css/homePage.css")
+		// endbuild
+
+		
+		
+	

@@ -1,0 +1,1475 @@
+.banner-section {
+	padding: 0;
+	margin-top: 107px;
+}
+
+.banner-section .bannerSwiper .swiper-slide img {
+	width: 100%;
+	height: auto;
+}
+
+.banner-section .bannerSwiper .swiper-pagination-bullet {
+	background: #fff;
+	opacity: unset;
+	transition: all .3s ease;
+}
+
+.banner-section .bannerSwiper .swiper-pagination-bullet-active {
+	background: rgba(0,0,0,0);
+	width: 56px;
+	border-radius: 20px;
+	border: 1px solid #f9c623;
+	position: relative;
+	transition: all .6s ease;
+}
+
+.banner-section .bannerSwiper .swiper-pagination-bullet-active::before {
+	content: " ";
+	width: 40px;
+	height: 100%;
+	display: block;
+	border-radius: 20px;
+	background: #f9c623;
+	transition: all .6s ease;
+}
+
+.banner-section .bannerSwiper .hero-content {
+	position: absolute;
+	top: 15%;
+	width: 720px;
+}
+
+.banner-section .bannerSwiper .hero-content .hero-title {
+	color: #fff;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	font-size: 56px;
+	line-height: 59px;
+	letter-spacing: -0.56px;
+	margin-bottom: 12px;
+}
+
+.banner-section .bannerSwiper .hero-content .hero-subtitle {
+	color: #fff;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 20px;
+	line-height: 26px;
+	letter-spacing: -0.2px;
+	margin-bottom: 50px;
+}
+
+.banner-section .bannerSwiper .banner-pagination {
+	bottom: 20%;
+	left: 50%;
+	width: unset;
+	border-radius: 60px;
+	background: rgba(0,0,0,.25);
+	backdrop-filter: blur(7px);
+}
+
+.loanTabs-section {
+	background-color: #f6f7f8;
+	padding-bottom: 24px;
+}
+
+.loanTabs-section .loan-wrapper {
+	position: relative;
+	z-index: 2;
+	margin-top: -120px;
+}
+
+.loanTabs-section .loanTabs-wrapper {
+	background: rgba(0,0,0,0);
+	display: -ms-flexbox;
+	display: flex;
+	border-radius: 8px 8px 0 0;
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab {
+	width: 100%;
+	padding: 20px 25px;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.28) 100%),#ffeec3;
+	box-shadow: 1px 0 0 0 #e6e1d0 inset;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	position: relative;
+	transition: all .5s ease;
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab.active {
+	background: #fff;
+	border-radius: unset;
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab.active::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	background: #fff;
+	top: -9px;
+	left: 0;
+	height: 12px;
+	border-radius: .5rem .5rem 0 0;
+	z-index: -1;
+	transition: all .5s ease;
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab.active .tab-topic {
+	font-family: "Frutiger LT Pro ExtraBlackCn 900";
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab.active .tab-topic::after {
+	content: "";
+	position: absolute;
+	right: 30%;
+	bottom: -8px;
+	width: 32px;
+	height: 4px;
+	background: #f9c623;
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab:first-child {
+	border-radius: 8px 0 0 0;
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab:last-child {
+	border-radius: 0 8px 0 0;
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab .tab-topic {
+	color: #000;
+	font-family: "Frutiger LT Pro 57 Bold Condensed 700";
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: capitalize;
+	position: relative;
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab img {
+	margin-bottom: 12px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loanTab-content {
+	display: none;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-content-info {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	padding: 24px 40px;
+	background: #fff;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-img-wrapper {
+	margin-right: 32px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-content-desc {
+	margin-right: 28px;
+	max-width: 720px;
+	width: 100%;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-content-desc .loan-desc {
+	color: #7e7e7e;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-content-desc .loan-heading {
+	margin-bottom: 0;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-cal-wrap {
+	margin-left: auto;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-cal-wrap .cal-emi-wrap {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	margin-bottom: 24px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-cal-wrap .calculate-img {
+	margin-right: 4px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-cal-wrap .emi-calc-link {
+	color: #007bc9;
+	font-family: "Frutiger LT Pro 45";
+	font-size: 14px;
+	line-height: 16px;
+	-webkit-text-decoration-line: underline;
+	        text-decoration-line: underline;
+	white-space: nowrap;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-cards-wrapper {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card {
+	width: 33.33%;
+	padding: 20px 24px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card .loan-card-title {
+	color: #262626;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	font-size: 22px;
+	letter-spacing: -0.22px;
+	margin-bottom: 8px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card .loan-card-desc {
+	color: #404040;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 44px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card .loan-card-btn-wrapper {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+	-ms-flex-align: center;
+	    align-items: center;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card .knowMoreLink {
+	color: #000;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 14px;
+	line-height: 16px;
+	-webkit-text-decoration-line: underline;
+	        text-decoration-line: underline;
+	transition: all .5s ease;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card .knowMoreLink:hover {
+	color: #007bc9;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card .applyNowBtn {
+	padding: 8px 32px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .active {
+	display: block;
+}
+
+.loan-offer-section {
+	background: #262626;
+	padding-bottom: 55px;
+}
+
+.loan-offer-section .offer-top {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.loan-offer-section .offer-top .offer-heading {
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.loan-offer-section .offer-top .offer-label {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+}
+
+.loan-offer-section .offer-top .offer-label .offer-label-title {
+	color: #f9c623;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	font-size: 22px;
+	margin-bottom: 6px;
+}
+
+.loan-offer-section .offer-top .offer-label .offer-availability {
+	color: #a4a4a4;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 12px;
+	letter-spacing: -0.12px;
+}
+
+.loan-offer-section .loan-offer-wrap {
+	position: relative;
+	overflow: visible;
+	margin-bottom: -127px;
+}
+
+.loan-offer-section .loan-offer-wrap .loan-pagination {
+	position: absolute;
+	bottom: -40px;
+	width: unset;
+	left: 50%;
+	border-radius: 60px;
+	background: rgba(0,0,0,.05);
+	backdrop-filter: blur(7px);
+}
+
+.loan-offer-section .loan-offer-wrap .loan-pagination .swiper-pagination-bullet {
+	background-color: #2c2c2c;
+}
+
+.loan-offer-section .loan-offer-wrap .loan-pagination .swiper-pagination-bullet-active {
+	background: #000;
+}
+
+.loan-offer-section .loan-offer-card {
+	border-radius: 8px;
+	background: #71c8e6;
+	padding: 16px;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	overflow: hidden;
+}
+
+.loan-offer-section .loan-offer-card .loan-offer-img {
+	width: 40%;
+}
+
+.loan-offer-section .loan-offer-card .loan-offer-img .offer-image {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	z-index: 2;
+}
+
+.loan-offer-section .offer-head {
+	color: #000;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	font-size: 18px;
+	text-transform: capitalize;
+	margin-bottom: 4px;
+}
+
+.loan-offer-section .offer-desc {
+	color: #000;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 12px;
+	line-height: 16.4px;
+	margin-bottom: 25px;
+}
+
+.loan-offer-section .shadow-background {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 12.125rem;
+	height: 3.4375rem;
+	background: linear-gradient(120deg, rgba(255, 255, 255, 0.3) 79%, transparent 50%);
+	z-index: 1;
+	border-radius: 0 0 0 8px;
+}
+
+.loan-offer-section .yellow-line {
+	position: absolute;
+	top: -20px;
+	right: 32px;
+	width: 73.059px;
+	height: 182px;
+	background: #f9c623;
+	-ms-transform: rotate(19.271deg);
+	    transform: rotate(19.271deg);
+	z-index: 1;
+}
+
+.utilities-section {
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%),#b9e1ee;
+	padding-top: 178px;
+}
+
+.utilities-section .container .utility-head {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+}
+
+.utilities-section .utilities-title {
+	color: #000;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	font-size: 20px;
+	letter-spacing: -0.2px;
+	min-height: 3rem;
+}
+
+.utilities-section .bills-utilities-wrap {
+	background: #fff;
+	border-radius: 8px;
+	border: 1px solid #ccdfe6;
+	margin-bottom: 8px;
+}
+
+.utilities-section .bills-utilities-wrap .bills-utilities-head {
+	padding: 16px 20px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.utilities-section .bills-utilities-wrap .bills-utilities-head .viewAllLink {
+	color: #333;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 14px;
+	line-height: 16px;
+	-webkit-text-decoration-line: underline;
+	        text-decoration-line: underline;
+}
+
+.utilities-section .bills-utilities-wrap .bills-utilities-body {
+	width: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	overflow-x: auto;
+	scrollbar-width: none;
+}
+
+.utilities-section .bills-utilities-wrap .bills-utilities-content {
+	padding: 16px;
+	text-align: center;
+	width: 100%;
+	border-right: 1px solid #eaeaea;
+	transition: all .5s ease;
+}
+
+.utilities-section .bills-utilities-wrap .bills-utilities-content:hover {
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.28) 100%),#ffeec3;
+}
+
+.utilities-section .bills-utilities-wrap .bills-utilities-content img {
+	margin-bottom: 8px;
+}
+
+.utilities-section .bills-utilities-wrap .bills-utilities-content p {
+	color: #404040;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 16px;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.utilities-section .utility-swiper {
+	margin-bottom: 32px;
+}
+
+.utilities-section .utilities-card {
+	display: -ms-flexbox;
+	display: flex;
+	padding: 24px;
+	border-radius: 8px;
+	border: 1px solid #ccdfe6;
+	background: #fff;
+}
+
+.utilities-section .utilities-card img {
+	object-fit: contain;
+	width: 35%;
+}
+
+.utilities-section .utilities-card-desc .utilitiesBtn {
+	padding: 8px 12px;
+	color: #000;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 14px;
+	line-height: 16px;
+	margin-top: 24px;
+	white-space: nowrap;
+}
+
+.utilities-section .utility-view-all {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	    justify-content: center;
+}
+
+.utilities-section .utility-view-all .all-utilities {
+	max-width: 384px;
+	width: 100%;
+}
+
+.utilities-section .utilities-popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background: rgba(0,0,0,.8);
+	display: none;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
+}
+
+.utilities-section .utilities-popup .alert-box {
+	position: relative;
+	background: #fff;
+	padding: 30px;
+	border-radius: 8px;
+	width: 450px;
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+.utilities-section .utilities-popup .alert-box .subtitle {
+	font-size: 20px;
+	color: #000;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	margin-bottom: 10px;
+}
+
+.utilities-section .utilities-popup .alert-box .filling-text {
+	font-size: 16px;
+	color: #262626;
+	font-weight: "Frutiger LT Pro 55 Roman normal";
+	margin-bottom: 8px;
+}
+
+.utilities-section .utilities-popup .utlities-list {
+	margin-bottom: 10px;
+}
+
+.utilities-section .utilities-popup .utlities-list li a {
+	font-size: 16px;
+	color: #484848;
+	font-weight: "Frutiger LT Pro 55 Roman normal";
+	margin: 8px 0;
+}
+
+.utilities-section .utilities-popup .close-btn {
+	position: absolute;
+	top: 22px;
+	right: 35px;
+	display: block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.utilities-section .utilities-popup .close-btn span {
+	display: block;
+	height: 2px;
+	width: 20px;
+	background: #000;
+	position: absolute;
+	left: 5px;
+	top: 13px;
+}
+
+.utilities-section .utilities-popup .close-btn span:nth-child(1) {
+	-ms-transform: rotate(45deg) translate(2px, 2px);
+	    transform: rotate(45deg) translate(2px, 2px);
+}
+
+.utilities-section .utilities-popup .close-btn span:nth-child(2) {
+	-ms-transform: rotate(-45deg) translate(-2px, 1px);
+	    transform: rotate(-45deg) translate(-2px, 1px);
+}
+
+.impNotice-section {
+	background-color: #ffeec3;
+	padding: 30px 0;
+	height: 106px;
+}
+
+.impNotice-section.expanded {
+	height: 180px;
+}
+
+.impNotice-section .notice-head {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.impNotice-section .notice-head .sect-heading {
+	margin-bottom: 0;
+}
+
+.impNotice-section .notice-head .shownoticeLink {
+	color: #007bc9;
+	font-family: "Frutiger LT Pro 45";
+	font-size: 14px;
+	line-height: 16px;
+	position: relative;
+	cursor: pointer;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	margin-right: 45px;
+}
+
+.impNotice-section .notice-head .shownoticeLink::after {
+	position: absolute;
+	content: "";
+	width: 7px;
+	height: 7px;
+	top: 8%;
+	right: -17px;
+	-ms-transform: rotate(-135deg);
+	    transform: rotate(-135deg);
+	border-top: 2px solid #007bc9;
+	border-left: 2px solid #007bc9;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+.impNotice-section .notice-head .shownoticeLink.active::after {
+	top: 30%;
+	-ms-transform: rotate(45deg);
+	    transform: rotate(45deg);
+}
+
+.impNotice-section .notice-wrap {
+	position: relative;
+	max-height: 0;
+	overflow: hidden;
+	opacity: 0;
+	display: none;
+}
+
+.impNotice-section .notice-wrap.visible {
+	max-height: 62.5rem;
+	opacity: 1;
+	overflow: visible;
+	display: block;
+	transition: all 5s ease;
+	margin-bottom: -90px;
+}
+
+.impNotice-section .notice-slide {
+	position: relative;
+	border-radius: 8px;
+}
+
+.impNotice-section .notice-slide img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 8px;
+}
+
+.impNotice-section .notice-slide .notice-info {
+	position: absolute;
+	top: 27px;
+	left: 30px;
+}
+
+.impNotice-section .notice-slide .notice-info .notice-title {
+	color: #fff;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	font-size: 20px;
+	letter-spacing: -0.2px;
+	margin-bottom: 4px;
+}
+
+.impNotice-section .notice-slide .notice-info .notice-desc {
+	color: #fff;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 12px;
+	letter-spacing: -0.12px;
+	margin-bottom: 10px;
+}
+
+.impNotice-section .notice-slide .notice-info .readMore-noticeLink {
+	color: #fff;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 14px;
+	line-height: 16px;
+	-webkit-text-decoration-line: underline;
+	        text-decoration-line: underline;
+}
+
+.blogs-section {
+	background-color: #f6f7f8;
+}
+
+.blogs-section .blog-head {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+	-ms-flex-align: end;
+	    align-items: flex-end;
+	margin-bottom: 20px;
+}
+
+.blogs-section .blog-head .blog-top {
+	width: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+}
+
+.blogs-section .blog-head .sect-heading {
+	margin-bottom: 0;
+}
+
+.blogs-section .blog-tabs-grp {
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.blogs-section .blog-tabs-grp .blog-tab {
+	padding: 6px 13px;
+	border-radius: 4px;
+	transition: all .5s ease;
+	background: #e2e2e2;
+}
+
+.blogs-section .blog-tabs-grp .blog-tab.active {
+	background: #000;
+}
+
+.blogs-section .blog-tabs-grp .blog-tab.active a {
+	color: #fff;
+}
+
+.blogs-section .blog-tabs-grp .blog-tab a {
+	color: #484848;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 10px;
+	letter-spacing: .4px;
+	text-transform: uppercase;
+}
+
+.blogs-section .blog-tabs-grp .blog-tab a.active {
+	color: #fff;
+}
+
+.blogs-section .blogs-wrapper {
+	position: relative;
+	overflow: visible;
+	display: none;
+}
+
+.blogs-section .blogs-wrapper.active {
+	display: block;
+}
+
+.blogs-section .blogs-wrapper .swiper {
+	margin-bottom: 32px;
+}
+
+.blogs-section .blogs-wrapper .blog-card img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	min-width: 80px;
+	border-radius: 8px;
+}
+
+.blogs-section .blogs-wrapper .blog-info {
+	position: absolute;
+	bottom: 22px;
+	left: 20px;
+}
+
+.blogs-section .blogs-wrapper .blog-info .blog-label {
+	color: #000;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	font-size: 8px;
+	line-height: 18px;
+	letter-spacing: .4px;
+	text-transform: uppercase;
+	padding: 6px;
+	border-radius: 4px;
+}
+
+.blogs-section .blogs-wrapper .blog-info .blog-title {
+	color: #fff;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -0.18px;
+	margin: 12px 0;
+}
+
+.blogs-section .blogs-wrapper .blog-info .blog-date {
+	color: #fff;
+	font-family: "Frutiger LT Pro 57 Condensed";
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: -0.12px;
+}
+
+.blogs-section .blogs-wrapper .all-blogs {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	    justify-content: center;
+}
+
+.blogs-section .blogs-wrapper .all-blogs .view-all-blogs {
+	max-width: 384px;
+	width: 100%;
+}
+
+.blogs-section .blogs-wrapper .yellow-bg {
+	background-color: #ffeec3;
+}
+
+.blogs-section .blogs-wrapper .blue-bg {
+	background-color: #b9e1ee;
+}
+
+.blogs-section .blogs-wrapper .green-bg {
+	background-color: #a9e5b3;
+}
+
+.blogs-section .blogs-wrapper .swiper-navigation-btns {
+	top: 37%;
+}
+
+.download-section {
+	padding: 46px 0 116px 0;
+	background-color: #f6f7f8;
+}
+
+.download-section .download-wrapper {
+	display: -ms-flexbox;
+	display: flex;
+	background-color: #231f20;
+	padding: 30px 60px;
+	border-radius: 12px;
+	position: relative;
+}
+
+.download-section .download-left {
+	width: 70%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: start;
+	    align-items: flex-start;
+}
+
+.download-section .download-left .planetApp-logo {
+	margin-right: 16px;
+}
+
+.download-section .download-left .download-title {
+	color: #fff;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	font-size: 32px;
+	letter-spacing: -0.32px;
+	margin-bottom: 6px;
+}
+
+.download-section .download-left .download-desc {
+	color: #c6c6c6;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: .14px;
+	margin-bottom: 28px;
+}
+
+.download-section .download-left .download-desc .download.learn-more-link {
+	color: #00a3da;
+}
+
+.download-section .download-left .playStore-link {
+	margin-right: 24px;
+}
+
+.download-section .mobile-download-links {
+	display: none;
+}
+
+.download-section .download-right {
+	width: 30%;
+}
+
+.download-section .download-right .iphone15Pro-model {
+	position: absolute;
+	top: -38px;
+	right: 19%;
+	z-index: 2;
+}
+
+.download-section .download-right .scanner-img {
+	position: absolute;
+	top: 65px;
+	right: 60px;
+	z-index: 1;
+}
+
+.top-Loans-section {
+	background: #000;
+}
+
+.top-Loans-section .loan-title {
+	color: #bfbfbf;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: -0.48px;
+	margin-bottom: 16px;
+}
+
+.top-Loans-section .top-loans-tab-grp {
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 20px;
+	overflow-x: auto;
+	scrollbar-width: none;
+}
+
+.top-Loans-section .top-loans-tab-grp .top-loan-tab {
+	padding: 12px 30px;
+	border-radius: 100px;
+	border: 1px solid #a4a4a4;
+	background: #262626;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+.top-Loans-section .top-loans-tab-grp .top-loan-tab.active {
+	background: #fff;
+}
+
+.top-Loans-section .top-loans-tab-grp .top-loan-tab.active a {
+	color: #000;
+}
+
+.top-Loans-section .top-loans-tab-grp .top-loan-tab a {
+	color: #fff;
+	font-family: "Frutiger LT Pro 57 Bold Condensed 700";
+	font-size: 10px;
+	letter-spacing: .4px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.top-Loans-section .top-loans-tab-grp .top-loan-tab:not(:last-child) {
+	margin-right: 11px;
+}
+
+.top-Loans-section .top-loans-content {
+	display: none;
+}
+
+.top-Loans-section .top-loans-content.active {
+	display: block;
+}
+
+.top-Loans-section .top-loans-content .loans-content-list {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+
+.top-Loans-section .top-loans-content .loans-content-list li {
+	position: relative;
+}
+
+.top-Loans-section .top-loans-content .loans-content-list li:not(:last-child) {
+	margin-right: 24px;
+	margin-bottom: 12px;
+}
+
+.top-Loans-section .top-loans-content .loans-content-list li:not(:last-child)::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: -12px;
+	-ms-transform: translateY(-50%);
+	    transform: translateY(-50%);
+	width: 1px;
+	height: 16px;
+	background: #a4a4a4;
+}
+
+.top-Loans-section .top-loans-content .loans-content-list li a {
+	color: #bfbfbf;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: -0.32px;
+}
+
+@media only screen and (max-width: 1366px) {
+
+.banner-section {
+	margin-top: 100px;
+}
+
+.loanTabs-section .loan-wrapper {
+	margin-top: -100px;
+}
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+.banner-section .bannerSwiper .hero-content .hero-title {
+	font-size: 40px;
+	line-height: 44px;
+}
+
+.banner-section .bannerSwiper .hero-content .hero-subtitle {
+	margin-bottom: 25px;
+}
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+.impNotice-section .notice-slide img {
+	height: 120px;
+}
+
+.download-section .download-right .scanner-img {
+	right: 46px;
+}
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+.banner-section .bannerSwiper .hero-content .hero-subtitle {
+	margin-bottom: 25px;
+}
+
+.loanTabs-section .loanTabs-wrapper {
+	overflow-x: auto;
+	scrollbar-width: none;
+	padding-top: 9px;
+}
+
+.utilities-section .utility-view-all .all-utilities {
+	max-width: 250px;
+}
+
+.blogs-section .blogs-wrapper .all-blogs .view-all-blogs {
+	max-width: 250px;
+}
+
+.download-section .download-right .scanner-img {
+	right: 29px;
+}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+.banner-section {
+	margin-top: 90px;
+}
+
+.banner-section .bannerSwiper .hero-content {
+	top: 20%;
+}
+
+.banner-section .bannerSwiper .hero-content .hero-title {
+	font-size: 25px;
+	line-height: 44px;
+}
+
+.banner-section .bannerSwiper .hero-content .hero-subtitle {
+	font-size: 18px;
+	line-height: 20px;
+	letter-spacing: -0.2px;
+	margin-bottom: 19px;
+}
+
+.banner-section .bannerSwiper .banner-pagination {
+	bottom: 40%;
+	text-align: right;
+	right: 35px;
+	left: unset;
+}
+
+.loanTabs-section .loan-wrapper {
+	margin-top: -82px;
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab {
+	padding: 20px;
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab .tab-topic {
+	font-size: 14px;
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab img {
+	margin-bottom: 8px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-content-info {
+	display: block;
+	padding: 20px 16px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-img-wrapper {
+	display: none;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-content-desc {
+	display: none;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-cal-wrap {
+	margin-left: unset;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-cal-wrap .cal-emi-wrap {
+	margin-bottom: 0;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-cards-wrapper {
+	margin: 0 -8px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card {
+	width: 31.13%;
+	margin: 8px;
+	text-align: center;
+	border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #c6c6c6;
+	padding: 16px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card .loan-card-title {
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card .loan-card-desc {
+	display: none;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card .loan-card-btn-wrapper {
+	-ms-flex-direction: column;
+	    flex-direction: column;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card .knowMoreLink {
+	margin-bottom: 16px;
+	font-size: 12px;
+}
+
+.loan-offer-section .loan-offer-wrap .loan-pagination {
+	display: none;
+}
+
+.blogs-section .blogs-wrapper .blog-card {
+	display: -ms-flexbox;
+	display: flex;
+	padding: 12px;
+	background: #fff;
+	border-radius: 8px;
+	border: 1px solid #e2e2e2;
+}
+
+.blogs-section .blogs-wrapper .blog-card picture {
+	margin-right: 12px;
+}
+
+.blogs-section .blogs-wrapper .blog-info {
+	position: unset;
+}
+
+.blogs-section .blogs-wrapper .blog-info .blog-title {
+	color: #000;
+	margin: 8px 0;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.blogs-section .blogs-wrapper .blog-info .blog-date {
+	color: #000;
+}
+
+.download-section .download-wrapper {
+	padding: 20px;
+}
+
+.download-section .download-right .iphone15Pro-model {
+	top: -24px;
+	right: 5%;
+}
+
+.download-section .download-right .scanner-img {
+	display: none;
+}
+
+.top-Loans-section .loan-title {
+	font-size: 22px;
+	line-height: 24px;
+}
+
+.top-Loans-section .top-loans-tab-grp {
+	margin-bottom: 16px;
+}
+
+.top-Loans-section .top-loans-content .loans-content-list li a {
+	font-size: 12px;
+	line-height: 14px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.banner-section .bannerSwiper .hero-content .hero-subtitle {
+	display: none;
+}
+
+.loanTabs-section .loanTabs-wrapper .loan-tab {
+	padding: 10px 20px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card {
+	width: 47%;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card {
+	width: 45.9%;
+}
+
+.utilities-section .container {
+	padding-right: 0;
+}
+
+.utilities-section .bills-utilities-wrap {
+	margin-right: 16px;
+}
+
+.utilities-section .utility-swiper {
+	margin-bottom: 0;
+}
+
+.utilities-section .utility-view-all .all-utilities {
+	display: none;
+}
+
+.impNotice-section .container {
+	padding-right: 0;
+}
+
+.blogs-section .container {
+	padding-right: 0;
+}
+
+.blogs-section .blog-head {
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	-ms-flex-align: start;
+	    align-items: flex-start;
+	margin-right: 16px;
+}
+
+.blogs-section .blog-head .sect-heading {
+	margin-bottom: 12px;
+}
+
+.blogs-section .blogs-wrapper .swiper {
+	margin-bottom: 0;
+}
+
+.blogs-section .blogs-wrapper .all-blogs .view-all-blogs {
+	display: none;
+}
+
+.download-section .download-left {
+	-ms-flex-direction: column;
+	    flex-direction: column;
+}
+
+.download-section .download-left .planetApp-logo {
+	margin-right: 0;
+	margin-bottom: 12px;
+}
+
+.download-section .download-left .download-title {
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+
+.download-section .download-left .download-desc {
+	display: none;
+}
+
+.download-section .download-left .playStore-link {
+	margin-right: 16px;
+}
+
+.download-section .download-links {
+	display: none;
+}
+
+.download-section .mobile-download-links {
+	display: block;
+}
+
+.download-section .download-right .iphone15Pro-model {
+	top: -50px;
+}
+
+}
+
+@media only screen and (max-width: 575px) {
+
+.banner-section .bannerSwiper .swiper-slide img {
+	max-height: 160px;
+	object-fit: cover;
+}
+
+.banner-section .bannerSwiper .hero-content {
+	top: 16%;
+}
+
+.banner-section .bannerSwiper .hero-content .hero-title {
+	font-size: 20px;
+	line-height: 24px;
+	width: 230px;
+	margin-bottom: 15px;
+}
+
+.loanTabs-section .container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.loanTabs-section .loan-wrapper {
+	margin-top: -38px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-cards-wrapper {
+	margin: 8px 8px 0 8px;
+}
+
+.loanTabs-section .loanTab-content-wrapper .loan-card {
+	width: 45.3%;
+}
+
+.loan-offer-section .container {
+	padding-right: 0;
+}
+
+.loan-offer-section .offer-top {
+	margin-right: 16px;
+}
+
+.loan-offer-section .loan-offer-info {
+	width: 164px;
+}
+
+.loan-offer-section .yellow-line {
+	right: 23px;
+}
+
+.utilities-section {
+	padding-top: 120px;
+}
+
+.utilities-section .bills-utilities-wrap .bills-utilities-content {
+	padding: 20px 29px;
+}
+
+.utilities-section .bills-utilities-wrap .bills-utilities-content p {
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.impNotice-section .notice-slide .notice-info .notice-title {
+	font-size: 16px;
+}
+
+.impNotice-section .notice-slide .notice-info .notice-desc {
+	font-size: 10px;
+}
+
+.impNotice-section .notice-slide .notice-info .readMore-noticeLink {
+	font-size: 12px;
+}
+
+.blogs-section .blog-tabs-grp {
+	width: 100%;
+}
+
+.blogs-section .blog-tabs-grp .blog-tab {
+	width: 50%;
+	text-align: center;
+}
+
+.download-section {
+	padding: 28px 0 75px 0;
+}
+
+.download-section .download-right .iphone15Pro-model {
+	width: 80px;
+	top: 30px;
+	height: 100%;
+}
+
+.top-Loans-section .top-loans-tab-grp .top-loan-tab {
+	padding: 9px 30px;
+}
+
+}
+
+@media only screen and (max-width: 490px) {
+
+.banner-section .bannerSwiper .banner-pagination {
+	bottom: 24%;
+}
+
+.loan-offer-section .shadow-background {
+	width: 10.025rem;
+}
+
+}
+
+@media only screen and (max-width: 412px) {
+
+.banner-section .bannerSwiper .hero-content {
+	top: 3%;
+}
+
+.banner-section .bannerSwiper .banner-pagination {
+	bottom: 20%;
+}
+
+}
+

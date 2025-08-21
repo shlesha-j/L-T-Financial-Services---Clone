@@ -1,0 +1,133 @@
+@import "../global/mixins",
+"../global/variables";
+
+.download-section {
+    padding: 46px 0 116px 0;
+    background-color: #F6F7F8;
+    @include respond-to(small){
+        padding: 28px 0 75px 0;
+    }
+
+    .download-wrapper {
+        display: flex;
+        background-color: #231F20;
+        padding: 30px 60px;
+        @include rounded(12px);
+        position: relative;
+
+        @include respond-to(large) {
+            padding: 20px;
+        }
+    }
+
+    .download-left {
+        width: 70%;
+        display: flex;
+        align-items: flex-start;
+        @include respond-to(medium){
+            flex-direction: column;
+        }
+
+        .planetApp-logo {
+            margin-right: 16px;
+            @include respond-to(medium){
+                margin-right: 0;
+                margin-bottom: 12px;
+            }
+        }
+
+        .download-title {
+            color: $white;
+            font-family: $font-Pro-BlackCn;
+            font-size: 32px;
+            letter-spacing: -0.32px;
+            margin-bottom: 6px;
+            @include respond-to(medium){
+                font-size: 20px;
+                margin-bottom: 12px;
+            }
+        }
+
+        .download-desc {
+            color: $Tertiary-Grey-07;
+            font-family: $font-Pro-Roman;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.14px;
+            margin-bottom: 28px;
+
+            @include respond-to(medium) {
+                display: none;
+            }
+
+            .download.learn-more-link {
+                color: #00A3DA;
+            }
+        }
+
+        .playStore-link {
+            margin-right: 24px;
+
+            @include respond-to(medium) {
+                margin-right: 16px;
+            }
+        }
+
+    }
+
+    .download-links {
+        @include respond-to(medium) {
+            display: none;
+        }
+    }
+
+    .mobile-download-links {
+        display: none;
+
+        @include respond-to(medium) {
+            display: block;
+        }
+    }
+
+    .download-right {
+        width: 30%;
+
+        .iphone15Pro-model {
+            position: absolute;
+            top: -38px;
+            right: 19%;
+            z-index: 2;
+
+            @include respond-to(large) {
+                top: -24px;
+                right: 5%;
+            }
+            @include respond-to(medium) {
+                top: -50px;
+            }
+            @include respond-to(small) {
+                width: 80px;
+                top: 30px;
+                height: 100%;
+            }
+            
+        }
+
+        .scanner-img {
+            position: absolute;
+            top: 65px;
+            right: 60px;
+            z-index: 1;
+            @include respond-to(extralarge) {
+                right: 46px;
+            }
+            @include respond-to(mediumtab) {
+                right: 29px;
+            }
+        
+            @include respond-to(large) {
+                display: none;
+            }
+        }
+    }
+}

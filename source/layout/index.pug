@@ -1,0 +1,27 @@
+block config
+    include ../include/config
+doctype html
+html(lang="en")
+    include ../include/head
+    body        
+        // Start loader  
+        //- #loading-bar-spinner.spinner
+        //-     .spinner-icon
+        // Start End  
+
+        // Start Header
+        include ../include/header
+        // End Header
+
+        // Start main content
+        .pageWrapper(class=Page.section)
+            block content
+        // End main content
+        
+        // Start footer
+        include ../include/footer
+        // End footer
+
+        // Start footer scripts
+        include ../include/footer-scripts-global
+        // End footer scripts

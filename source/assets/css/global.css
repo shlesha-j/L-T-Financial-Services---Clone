@@ -1,0 +1,1289 @@
+@font-face {
+	font-family: "Frutiger LT Pro 57 Condensed";
+	src: url("../fonts/FrutigerLTPro-Condensed.eot");
+	src: url("../fonts/FrutigerLTPro-Condensed.eot?#iefix") format("embedded-opentype"),url("../fonts/FrutigerLTPro-Condensed.woff2") format("woff2"),url("../fonts/FrutigerLTPro-Condensed.woff") format("woff"),url("../fonts/FrutigerLTPro-Condensed.ttf") format("truetype"),url("../fonts/FrutigerLTPro-Condensed.svg#FrutigerLTPro-Condensed") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	src: url("../fonts/FrutigerLTPro-BlackCn.eot");
+	src: url("../fonts/FrutigerLTPro-BlackCn.eot?#iefix") format("embedded-opentype"),url("../fonts/FrutigerLTPro-BlackCn.woff2") format("woff2"),url("../fonts/FrutigerLTPro-BlackCn.woff") format("woff"),url("../fonts/FrutigerLTPro-BlackCn.ttf") format("truetype"),url("../fonts/FrutigerLTPro-BlackCn.svg#FrutigerLTPro-BlackCn") format("svg");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Frutiger LT Pro 57 Bold Condensed 700";
+	src: url("../fonts/FrutigerLTPro-BoldCn.eot");
+	src: url("../fonts/FrutigerLTPro-BoldCn.eot?#iefix") format("embedded-opentype"),url("../fonts/FrutigerLTPro-BoldCn.woff2") format("woff2"),url("../fonts/FrutigerLTPro-BoldCn.woff") format("woff"),url("../fonts/FrutigerLTPro-BoldCn.ttf") format("truetype"),url("../fonts/FrutigerLTPro-BoldCn.svg#FrutigerLTPro-BoldCn") format("svg");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Frutiger LT Pro ExtraBlackCn 900";
+	src: url("../fonts/FrutigerLTPro-ExtraBlackCn.eot");
+	src: url("../fonts/FrutigerLTPro-ExtraBlackCn.eot?#iefix") format("embedded-opentype"),url("../fonts/FrutigerLTPro-ExtraBlackCn.woff2") format("woff2"),url("../fonts/FrutigerLTPro-ExtraBlackCn.woff") format("woff"),url("../fonts/FrutigerLTPro-ExtraBlackCn.ttf") format("truetype"),url("../fonts/FrutigerLTPro-ExtraBlackCn.svg#FrutigerLTPro-ExtraBlackCn") format("svg");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Frutiger LT Pro 57 Condensed 700";
+	src: url("../fonts/FrutigerLTPro-Condensed.eot");
+	src: url("../fonts/FrutigerLTPro-Condensed.eot?#iefix") format("embedded-opentype"),url("../fonts/FrutigerLTPro-Condensed.woff2") format("woff2"),url("../fonts/FrutigerLTPro-Condensed.woff") format("woff"),url("../fonts/FrutigerLTPro-Condensed.ttf") format("truetype"),url("../fonts/FrutigerLTPro-Condensed.svg#FrutigerLTPro-Condensed") format("svg");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Frutiger LT Pro 45";
+	src: url("../fonts/FrutigerLTPro-Bold.eot");
+	src: url("../fonts/FrutigerLTPro-Bold.eot?#iefix") format("embedded-opentype"),url("../fonts/FrutigerLTPro-Bold.woff2") format("woff2"),url("../fonts/FrutigerLTPro-Bold.woff") format("woff"),url("../fonts/FrutigerLTPro-Bold.ttf") format("truetype"),url("../fonts/FrutigerLTPro-Bold.svg#FrutigerLTPro-Bold") format("svg");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Frutiger LT Pro 55 Roman";
+	src: url("../fonts/FrutigerLTPro-Black.eot");
+	src: url("../fonts/FrutigerLTPro-Black.eot?#iefix") format("embedded-opentype"),url("../fonts/FrutigerLTPro-Black.woff2") format("woff2"),url("../fonts/FrutigerLTPro-Black.woff") format("woff"),url("../fonts/FrutigerLTPro-Black.ttf") format("truetype"),url("../fonts/FrutigerLTPro-Black.svg#FrutigerLTPro-Black") format("svg");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	src: url("../fonts/FrutigerLTPro-Roman.eot");
+	src: url("../fonts/FrutigerLTPro-Roman.eot?#iefix") format("embedded-opentype"),url("../fonts/FrutigerLTPro-Roman.woff2") format("woff2"),url("../fonts/FrutigerLTPro-Roman.woff") format("woff"),url("../fonts/FrutigerLTPro-Roman.ttf") format("truetype"),url("../fonts/FrutigerLTPro-Roman.svg#FrutigerLTPro-Roman") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "icomoon";
+	src: url("../fonts/icomoon.eot?hhvq4z");
+	src: url("../fonts/icomoon.eot?hhvq4z#iefix") format("embedded-opentype"),url("../fonts/icomoon.ttf?hhvq4z") format("truetype"),url("../fonts/icomoon.woff?hhvq4z") format("woff"),url("../fonts/icomoon.svg?hhvq4z#icomoon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^=icon-],
+[class*=" icon-"] {
+	font-family: "icomoon" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-round-svgrepo-com-1:before {
+	content: "";
+	color: #00adef;
+}
+
+.icon-youtube-fill:before {
+	content: "";
+	color: #00adef;
+}
+
+.icon-twitter-x-fill:before {
+	content: "";
+	color: #00adef;
+}
+
+.icon-instagram-fill:before {
+	content: "";
+	color: #00adef;
+}
+
+.icon-linkedin-box-fill:before {
+	content: "";
+	color: #00adef;
+}
+
+.icon-Chats .path1:before {
+	content: "";
+	color: #1c1b1f;
+	opacity: .2;
+}
+
+.icon-Chats .path2:before {
+	content: "";
+	margin-left: -1em;
+	color: #343330;
+}
+
+.icon-quick-links:before {
+	content: "";
+	color: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: 0;
+}
+
+html,
+body {
+	background: #fff;
+	width: 100%;
+	font-size: 1rem;
+}
+
+html {
+	scroll-padding-top: 5.5625rem;
+}
+
+a,
+button {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+*:focus-visible,
+a:focus-visible,
+button:focus-visible {
+	outline: 1px solid gray;
+	z-index: 10;
+}
+
+.container {
+	margin: 0 auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	max-width: 1200px;
+	width: 100%;
+}
+
+section {
+	padding: 3.5rem 0;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	background: rgba(0,0,0,0);
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.sect-heading {
+	color: #000;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	font-size: 36px;
+	line-height: 59px;
+	letter-spacing: -0.72px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.no-outline {
+	outline: none !important;
+	border: none !important;
+	padding: 6px 12px !important;
+	font-size: 12px !important;
+	z-index: 2;
+}
+
+.swiper {
+	width: 100%;
+}
+
+.swiper-navigation-btns {
+	width: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	    transform: translateY(-50%);
+	z-index: 10;
+}
+
+.swiper-navigation-btns .swiper-button-prev,
+.swiper-navigation-btns .swiper-button-next {
+	background: #fff;
+	width: 2.75rem;
+	height: 2.75rem;
+	border-radius: 50%;
+}
+
+.swiper-navigation-btns .swiper-button-prev::after,
+.swiper-navigation-btns .swiper-button-next::after {
+	color: #00a3da;
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.swiper-navigation-btns .swiper-button-prev {
+	left: -55px;
+}
+
+.swiper-navigation-btns .swiper-button-next {
+	right: -55px;
+}
+
+.swiper-navigation-btns .swiper-button-disabled {
+	background: #fff !important;
+	opacity: .7;
+}
+
+.swiper-navigation-btns .swiper-button-disabled::after {
+	color: #c6c6c6 !important;
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.underline-animate {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.underline-animate::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 3px;
+	background: #f9c623;
+	margin: 0;
+	border-radius: 2px;
+	transition: width .5s;
+}
+
+.underline-animate:hover::after,
+.underline-animate.active::after {
+	width: 100%;
+}
+
+.mobile-viewAll-Link {
+	color: #007bc9;
+	text-align: right;
+	font-family: "Frutiger LT Pro 45";
+	font-size: 14px;
+	position: relative;
+	margin-right: 35px;
+	display: none;
+}
+
+.mobile-viewAll-Link:after {
+	position: absolute;
+	content: "";
+	width: 7px;
+	height: 7px;
+	top: 20%;
+	right: -17px;
+	-ms-transform: translateY(-50%) rotate(136deg);
+	    transform: translateY(-50%) rotate(136deg);
+	border-top: 2px solid #007bc9;
+	border-left: 2px solid #007bc9;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+.btn {
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-ms-flex-align: baseline;
+	    align-items: baseline;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	text-align: center;
+	font-family: "Frutiger LT Pro 55 Roman";
+	font-size: 16px;
+	line-height: normal;
+	padding: 13px 24px;
+	color: #000;
+	border: 1px solid rgba(0,0,0,0);
+	border-radius: 4px;
+	position: relative;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.btn-primary {
+	background: #f9c623;
+	color: #000;
+	border: none;
+	padding: 11px 42px;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+.btn-primary:hover {
+	background: #f89626;
+}
+
+.btn-outline {
+	background: #fff;
+	border: 1px solid #a4a4a4;
+	transition: all .3s ease;
+}
+
+.btn-outline:hover {
+	background-color: #f6f7f8;
+}
+
+header .navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+header .navbar .header-top {
+	background: #262626;
+	padding: 8px 0;
+}
+
+header .navbar .header-wrapper {
+	max-width: 1388px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+}
+
+header .download-set {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+}
+
+header .download-set .download-set-title {
+	color: #a4a4a4;
+	margin-right: 8px;
+	font-size: 12px;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+}
+
+header .download-set a:not(:last-of-type) {
+	margin-right: 8px;
+}
+
+header .download-set img {
+	display: block;
+}
+
+header .share-Links {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+}
+
+header .share-Links .share-link-title {
+	color: #a4a4a4;
+	margin-right: 4px;
+	font-size: 12px;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+}
+
+header .share-Links .share-price1 {
+	color: #fff;
+	margin-right: 4px;
+	font-size: 12px;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+}
+
+header .share-Links .share-price2,
+header .share-Links .share-price3 {
+	color: #19bb33;
+	margin-right: 4px;
+	font-size: 12px;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+}
+
+header .header-bottom {
+	background: #fff;
+	border: 1px solid #f2f2f2;
+}
+
+header .header-bottom .bottom-left {
+	width: 55%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+}
+
+header .header-bottom .lang-translate {
+	display: -ms-flexbox;
+	display: flex;
+}
+
+header .header-bottom .lang-translate .lang-icon {
+	margin-right: 8px;
+}
+
+header .header-bottom .lang-translate .translate-box {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+}
+
+header .header-bottom .lang-translate .translate-box span {
+	color: #606060;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 10px;
+	margin-bottom: 3px;
+}
+
+header .header-bottom .lang-translate .translate-box select {
+	font-family: "Frutiger LT Pro 45";
+	color: #000;
+	font-size: 12px;
+	line-height: normal;
+	margin-left: -4px;
+	cursor: pointer;
+}
+
+header .header-bottom .search-group {
+	position: relative;
+	width: 387px;
+}
+
+header .header-bottom .search-group .searchInput {
+	padding: 12px 50px 12px 24px;
+	border-radius: 4px;
+	border: 1px solid #a4a4a4;
+	background: #fff;
+	width: 100%;
+	color: #7e7e7e;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 14px;
+}
+
+header .header-bottom .search-group .magnifier {
+	position: absolute;
+	right: 18px;
+	bottom: 12px;
+}
+
+header .header-bottom .bottom-right {
+	width: 45%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: end;
+	    justify-content: flex-end;
+}
+
+header .header-bottom .bottom-right .nav-links {
+	margin-right: 34px;
+}
+
+header .header-bottom .bottom-right .header-Btn-grp {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
+}
+
+header .header-bottom .bottom-right .navLink-List {
+	display: -ms-flexbox;
+	display: flex;
+}
+
+header .header-bottom .bottom-right .nav-link {
+	color: #000;
+	font-family: "Frutiger LT Pro 45";
+	font-size: 14px;
+	letter-spacing: -0.28px;
+	padding: 31px 14px;
+}
+
+header .header-bottom .bottom-right .LoginBtn {
+	background: #000;
+	color: #fff;
+	padding: 10px 43px;
+	transition: all .5s ease;
+}
+
+header .header-bottom .bottom-right .LoginBtn:hover {
+	background: #606060;
+}
+
+header .nav-item {
+	position: relative;
+	transition: all .5s ease;
+}
+
+header .nav-item .dropdown-menu {
+	opacity: 0;
+	visibility: hidden;
+	display: none;
+	position: absolute;
+	top: 57px;
+	left: 50%;
+	-ms-transform: translateX(-50%);
+	    transform: translateX(-50%);
+	transition: opacity .3s ease,visibility .3s ease;
+	z-index: -1;
+	display: inline-block;
+	padding: 32px 20px 5px 20px;
+	background: #fff;
+	border-radius: 4px;
+}
+
+header .nav-item .dropdown-menu.open {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+	z-index: -1;
+}
+
+header .nav-item .dropdown-menu .dropdown-list {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	-ms-flex-align: start;
+	    align-items: flex-start;
+}
+
+header .nav-item .dropdown-item a {
+	color: #000;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 14px;
+	line-height: 24px;
+	padding: 5px 0;
+	white-space: nowrap;
+	transition: all .5s ease;
+}
+
+header .nav-item .dropdown-item a:hover {
+	color: #007bc9;
+}
+
+header .ham-menu {
+	display: none;
+	width: 20px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+header .ham-menu.active {
+	position: absolute;
+	right: 28px;
+	top: 0;
+}
+
+header .ham-menu.active span:nth-child(1) {
+	width: 20px;
+	-ms-transform: rotate(45deg) translate(2px, 7px);
+	    transform: rotate(45deg) translate(2px, 7px);
+}
+
+header .ham-menu.active span:nth-child(2) {
+	width: 20px;
+	-ms-transform: rotate(-45deg) translate(-3px, -2px);
+	    transform: rotate(-45deg) translate(-3px, -2px);
+}
+
+header .ham-menu span {
+	display: block;
+	height: .125rem;
+	background-color: #000;
+	margin: 3px 0 3px auto;
+	transition: all .5s ease-in-out;
+	border-radius: 4px;
+}
+
+header .ham-menu span:nth-child(1) {
+	width: 18px;
+}
+
+header .ham-menu span:nth-child(2) {
+	width: 12px;
+}
+
+header .logo .LT-logo {
+	display: block;
+}
+
+header .g-translate {
+	display: none;
+}
+
+header .mobile-search-Btn {
+	display: none;
+}
+
+header .quick-links-wrap {
+	position: fixed;
+	right: -103px;
+	top: 60%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	z-index: 1000;
+}
+
+header .quick-links-wrap .links {
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 6px 0 0 6px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	    flex-direction: row;
+}
+
+header .quick-links-wrap .links p {
+	font-family: "Frutiger LT Pro 45";
+	font-size: 14px;
+	letter-spacing: -0.0175rem;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+}
+
+header .quick-links-wrap .chatNow {
+	background: #f9c623;
+	color: #000;
+	margin-bottom: 15px;
+	transition: all .3s ease;
+}
+
+header .quick-links-wrap .chatNow:hover {
+	background-color: #f6f7f8;
+}
+
+header .quick-links-wrap .quick-link-toggle {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: start;
+	    align-items: flex-start;
+	transition: all 1s ease;
+}
+
+header .quick-links-wrap .quick-link-toggle:hover {
+	-ms-transform: translateX(-100px);
+	    transform: translateX(-100px);
+}
+
+header .quick-links-wrap .quickLinks {
+	background: #007bc9;
+	color: #fff;
+	-ms-transform: translateX(0);
+	    transform: translateX(0);
+	transition: all 1s ease;
+}
+
+header .quick-links-wrap .inner-quickLinks {
+	background: #007bc9;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	position: relative;
+	bottom: 0;
+	border-radius: 0 0 6px 6px;
+	transition: all 1s ease;
+}
+
+header .quick-links-wrap .inner-quickLinks a {
+	color: #fff;
+	font-family: "Frutiger LT Pro 45";
+	font-size: 14px;
+	letter-spacing: -0.0175rem;
+	padding: 18px;
+	transition: all 1s ease;
+}
+
+header .quick-links-wrap .inner-quickLinks a:not(:last-child) {
+	border-bottom: 1px dashed #fff;
+}
+
+header .quick-links-wrap .inner-quickLinks a:hover {
+	background-color: #00adef;
+}
+
+footer {
+	padding: 40px 0;
+	background: #fff;
+}
+
+footer .footer-wrap {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+footer .footer-wrap .mobile-view-logo {
+	display: none;
+}
+
+footer .footer-wrap .footer-col-part:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+footer .footer-wrap .footer-col-part .col-title {
+	color: #000;
+	font-family: "Frutiger LT Pro 45";
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 16px;
+}
+
+footer .footer-wrap .footer-col {
+	width: 15%;
+	padding-right: 10px;
+}
+
+footer .footer-wrap .office-details {
+	width: 20%;
+	padding-right: 0;
+}
+
+footer .footer-wrap .footer-links li {
+	position: relative;
+	transition: all 1.5s ease;
+}
+
+footer .footer-wrap .footer-links li:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+footer .footer-wrap .footer-links li:hover .footer-sub-links {
+	visibility: visible;
+	opacity: 1;
+}
+
+footer .footer-wrap .footer-links .new-label {
+	padding: 4px 6px;
+	background: #00a3da;
+	font-size: 10px;
+	line-height: 18px;
+	color: #fff;
+	letter-spacing: .6px;
+	text-transform: uppercase;
+	font-family: "Frutiger LT Pro 57 Condensed 800";
+	border-radius: 4px;
+	margin-left: 8px;
+}
+
+footer .footer-wrap .footer-sub-links {
+	position: absolute;
+	min-width: 224px;
+	top: 50%;
+	left: 76%;
+	-ms-transform: translateY(-3%);
+	    transform: translateY(-3%);
+	background: #f1f9fc;
+	padding: 10px;
+	z-index: 2;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	visibility: hidden;
+	opacity: 0;
+	border-radius: 8px;
+}
+
+footer .footer-wrap .footer-sub-links a {
+	font-size: 12px;
+	line-height: 16px;
+	color: #404040;
+}
+
+footer .footer-wrap .footer-link {
+	color: #404040;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 12px;
+	line-height: 16px;
+	transition: all .3s ease;
+	position: relative;
+}
+
+footer .footer-wrap .footer-link:hover {
+	color: #007bc9;
+}
+
+footer .footer-wrap .footer-menu-link:after {
+	content: "";
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	top: 9px;
+	right: -11px;
+	-ms-transform: translateY(-50%) rotate(136deg);
+	transform: translateY(-50%) rotate(136deg);
+	border-top: 1px solid #404040;
+	border-left: 1px solid #404040;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+footer .footer-wrap .social-icons {
+	margin: 24px 0;
+}
+
+footer .footer-wrap .social-icons a {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
+	border: 1px solid rgba(0,0,0,.04);
+	background: rgba(249,245,240,.09);
+	transition: all .5s ease;
+}
+
+footer .footer-wrap .social-icons a:hover {
+	border: 1px solid #007bc9;
+}
+
+footer .footer-wrap .social-icons a:not(:last-child) {
+	margin-right: 16px;
+}
+
+footer .footer-wrap .mobile-icons {
+	display: none;
+}
+
+footer .footer-wrap .office-address {
+	color: #404040;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 10px;
+	transition: all .3s ease;
+}
+
+footer .footer-wrap .office-address:hover {
+	color: #007bc9;
+}
+
+footer .footer-wrap .office-contact {
+	color: #404040;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 12px;
+	line-height: 16px;
+	transition: all .3s ease;
+}
+
+footer .footer-wrap .office-contact:hover {
+	color: #007bc9;
+}
+
+footer .footer-bottom {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+}
+
+footer .footer-bottom p {
+	color: gray;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 12px;
+	line-height: 16px;
+}
+
+footer .footer-bottom .policy-links a {
+	color: #404040;
+	font-family: "Frutiger LT Pro 55 Roman normal";
+	font-size: 12px;
+	line-height: 16px;
+	position: relative;
+}
+
+footer .footer-bottom .policy-links a:not(:last-child) {
+	margin-right: 10px;
+}
+
+footer #scroll-to-top {
+	display: inline-block;
+	background-color: #f9c623;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 50px;
+	right: 90px;
+	transition: background-color .3s,opacity .5s,visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 10;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
+}
+
+footer #scroll-to-top.show {
+	opacity: 1;
+	visibility: visible;
+}
+
+@media only screen and (max-width: 1366px) {
+
+.btn {
+	font-size: 14px;
+}
+
+header .header-bottom .bottom-right .nav-link {
+	font-size: 13px;
+}
+
+header .header-bottom .bottom-right .nav-link {
+	font-size: 12px;
+	padding: 25px 10px;
+}
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+.swiper-navigation-btns .swiper-button-prev {
+	left: -15px;
+}
+
+.swiper-navigation-btns .swiper-button-next {
+	right: -15px;
+}
+
+header .header-bottom .search-group {
+	width: auto;
+}
+
+header .header-bottom .bottom-right .LoginBtn {
+	padding: 7px 15px;
+}
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+html {
+	scroll-padding-top: 2.5rem;
+}
+
+.swiper-navigation-btns .swiper-button-prev,
+.swiper-navigation-btns .swiper-button-next {
+	width: 2.3125rem;
+	height: 2.3125rem;
+}
+
+footer .footer-wrap .social-icons a:not(:last-child) {
+	margin-right: 8px;
+}
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+header .header-bottom .lang-translate {
+	margin-right: 20px;
+}
+
+header .logo {
+	margin-right: 20px;
+}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+section {
+	padding: 1.5625rem 0;
+}
+
+.sect-heading {
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.swiper-navigation-btns {
+	display: none;
+}
+
+.btn {
+	font-size: 12px;
+	padding: 8px 27px;
+}
+
+header .share-Links {
+	display: none;
+}
+
+header .header-bottom {
+	padding: 8px 0;
+	position: relative;
+}
+
+header .header-bottom .bottom-left {
+	-ms-flex-pack: unset;
+	    justify-content: unset;
+}
+
+header .header-bottom .lang-translate {
+	display: none;
+}
+
+header .header-bottom .search-group {
+	display: none;
+}
+
+header .header-bottom .bottom-right .nav-links {
+	position: fixed;
+	top: 0;
+	left: -100%;
+	height: 100vh;
+	width: 100%;
+	backdrop-filter: blur(10px);
+	background: #fff;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	-ms-flex-align: start;
+	    align-items: flex-start;
+	-ms-flex-pack: start;
+	    justify-content: flex-start;
+	padding: 80px 24px 24px 24px;
+	box-shadow: -2px 0 10px rgba(0,0,0,.1);
+	transition: left .3s ease;
+	z-index: 1;
+}
+
+header .header-bottom .bottom-right .nav-links.active {
+	left: 0;
+}
+
+header .header-bottom .bottom-right .nav-links.active body {
+	overflow: hidden;
+}
+
+header .header-bottom .bottom-right .navLink-List {
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	-ms-flex-align: start;
+	    align-items: flex-start;
+}
+
+header .ham-menu {
+	display: block;
+	margin-right: 6px;
+}
+
+header .logo .LT-logo {
+	width: 114px;
+	height: auto;
+}
+
+header .g-translate {
+	display: block;
+}
+
+header .mobile-search-Btn {
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	margin-right: 15px;
+}
+
+header .quick-links-wrap {
+	display: none;
+}
+
+footer {
+	padding: 32px 0;
+}
+
+footer .footer-wrap {
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	margin-bottom: 24px;
+}
+
+footer .footer-wrap .mobile-view-logo {
+	display: block;
+	margin-bottom: 32px;
+}
+
+footer .footer-wrap .footer-col-part {
+	border-bottom: 1px solid #b0b0b0;
+}
+
+footer .footer-wrap .footer-col-part:not(:last-child) {
+	margin-bottom: 0;
+}
+
+footer .footer-wrap .footer-col-part .col-title {
+	margin: 12px 0;
+	position: relative;
+}
+
+footer .footer-wrap .footer-col-part .col-title::before {
+	content: "+";
+	position: absolute;
+	right: 10px;
+	font-size: 20px;
+}
+
+footer .footer-wrap .footer-col-part .col-title.active::before {
+	content: "−";
+}
+
+footer .footer-wrap .footer-col-part .office-detail-head {
+	margin: 0 0 8px 0;
+}
+
+footer .footer-wrap .footer-col-part .office-detail-head::before {
+	content: unset;
+}
+
+footer .footer-wrap .office-detail-part {
+	border-bottom: none;
+}
+
+footer .footer-wrap .office-detail-part img {
+	display: none;
+}
+
+footer .footer-wrap .footer-col {
+	width: 100%;
+}
+
+footer .footer-wrap .office-details {
+	margin-top: 32px;
+}
+
+footer .footer-wrap .footer-links {
+	display: none;
+}
+
+footer .footer-wrap .footer-links li {
+	margin: 16px 0;
+}
+
+footer .footer-wrap .footer-links li::after {
+	position: absolute;
+	content: "";
+	width: 4px;
+	height: 4px;
+	top: 20%;
+	right: 13px;
+	-ms-transform: translateY(-50%) rotate(136deg);
+	    transform: translateY(-50%) rotate(136deg);
+	border-top: 1px solid #1c1b1f;
+	border-left: 1px solid #1c1b1f;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+footer .footer-wrap .footer-menu-link {
+	display: none;
+}
+
+footer .footer-wrap .social-icons a:not(:last-child) {
+	margin-right: 12px;
+}
+
+footer .footer-wrap .social-icons {
+	display: none;
+}
+
+footer .footer-wrap .mobile-icons {
+	display: block;
+	margin: 0;
+}
+
+footer .footer-wrap .office-contact {
+	margin-bottom: 16px;
+}
+
+footer .footer-bottom {
+	-ms-flex-direction: column-reverse;
+	    flex-direction: column-reverse;
+	-ms-flex-pack: unset;
+	    justify-content: unset;
+}
+
+footer .footer-bottom .policy-links {
+	margin-bottom: 16px;
+}
+
+footer #scroll-to-top {
+	right: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+footer #scroll-to-top img {
+	width: 20px;
+	height: 20px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.mobile-viewAll-Link {
+	display: block;
+}
+
+}
+
+@media only screen and (max-width: 575px) {
+
+.btn-primary {
+	padding: 6px 28px;
+}
+
+}
+

@@ -1,0 +1,118 @@
+section.blogs-section 
+    .container.tab-container 
+        .blog-head
+            .blog-top 
+                h2.sect-heading(tabindex="0") Blogs
+                a.mobile-viewAll-Link(href="javascript:void(0)" tabindex="0") View All
+            ul.blog-tabs-grp(role="tablist") 
+                li.blog-tab.tab.active(role="tab" aria-selected="true" tabindex="0")
+                    a(href="javascript:void(0)") Articles 
+                li.blog-tab.tab(role="tab" aria-selected="false" tabindex="-1")
+                    a(href="javascript:void(0)") Videos
+            
+        .blogs-wrapper.content.active(role="tabpanel") 
+            .swiper.article-swiper 
+                .swiper-wrapper 
+                    .swiper-slide 
+                        .blog-card
+                            picture
+                                source(media="(min-width: 992px)" srcset="assets/images/article-img1.webp")
+                                img.lazy(src="" data-src="assets/images/blog-mobile-img.webp" alt="Responsive image" width="80" height="80" loading="lazy")
+                            //- img(src="assets/images/article-img1.webp", alt="")
+                            .blog-info 
+                                span.blog-label.yellow-bg(tabindex="0") Tax savings
+                                p.blog-title(tabindex="0") MSME - Registration Benefits and Tax Benefits
+                                span.blog-date(tabindex="0") Feb 29, 2024  |  4 mins read
+                    .swiper-slide 
+                        .blog-card
+                            picture
+                                source(media="(min-width: 992px)" srcset="assets/images/article-img1.webp")
+                                img.lazy(src="" data-src="assets/images/blog-mobile-img.webp" alt="Responsive image" width="80" height="80" loading="lazy")
+                            //- img(src="assets/images/article-img1.webp", alt="")
+                            .blog-info 
+                                span.blog-label.blue-bg(tabindex="0") Tax savings
+                                p.blog-title(tabindex="0") MSME - Registration Benefits and Tax Benefits
+                                span.blog-date(tabindex="0") Feb 29, 2024  |  4 mins read
+
+                    .swiper-slide 
+                        .blog-card
+                            picture
+                                source(media="(min-width: 992px)" srcset="assets/images/article-img1.webp")
+                                img.lazy(src="" data-src="assets/images/blog-mobile-img.webp" alt="Responsive image" width="80" height="80" loading="lazy")
+                            //- img(src="assets/images/article-img1.webp", alt="")
+                            .blog-info 
+                                span.blog-label.green-bg(tabindex="0") Tax savings
+                                p.blog-title(tabindex="0") MSME - Registration Benefits and Tax Benefits
+                                span.blog-date(tabindex="0") Feb 29, 2024  |  4 mins read
+
+                    .swiper-slide 
+                        .blog-card
+                            picture
+                                source(media="(min-width: 992px)" srcset="assets/images/article-img1.webp")
+                                img.lazy(src="" data-src="assets/images/blog-mobile-img.webp" alt="Responsive image" width="80" height="80" loading="lazy")
+                            //- img(src="assets/images/article-img1.webp", alt="")
+                            .blog-info 
+                                span.blog-label.yellow-bg(tabindex="0") Tax savings
+                                p.blog-title(tabindex="0") MSME - Registration Benefits and Tax Benefits
+                                span.blog-date(tabindex="0") Feb 29, 2024  |  4 mins read
+
+            .swiper-navigation-btns 
+                .swiper-button-prev.article-prev(tabindex="0")  
+                .swiper-button-next.article-next(tabindex="0")
+            
+            .all-blogs 
+                button.btn.btn-primary.view-all-blogs(tabindex="0") View all blogs
+
+        .blogs-wrapper.content(role="tabpanel") 
+            .swiper.video-swiper 
+                .swiper-wrapper 
+                    .swiper-slide 
+                        .blog-card
+                            picture
+                                source(media="(min-width: 992px)" srcset="assets/images/article-img2.webp")
+                                img.lazy(src="" data-src="assets/images/blog-mobile-img.webp" alt="Responsive image" width="80" height="80" loading="lazy")
+                            //- img(src="assets/images/article-img2.webp", alt="")
+                            .blog-info 
+                                span.blog-label.yellow-bg(tabindex="0") Tax savings
+                                p.blog-title(tabindex="0") MSME - Registration Benefits and Tax Benefits
+                                span.blog-date(tabindex="0") Feb 29, 2024  |  4 mins read
+                    .swiper-slide 
+                        .blog-card
+                            picture
+                                source(media="(min-width: 992px)" srcset="assets/images/article-img2.webp")
+                                img.lazy(src="" data-src="assets/images/blog-mobile-img.webp" alt="Responsive image" width="80" height="80" loading="lazy")
+                            //- img(src="assets/images/article-img2.webp", alt="")
+                            .blog-info 
+                                span.blog-label.blue-bg(tabindex="0") Tax savings
+                                p.blog-title(tabindex="0") MSME - Registration Benefits and Tax Benefits
+                                span.blog-date(tabindex="0") Feb 29, 2024  |  4 mins read
+
+                    .swiper-slide 
+                        .blog-card
+                            picture
+                                source(media="(min-width: 992px)" srcset="assets/images/article-img2.webp")
+                                img.lazy(src="" data-src="assets/images/blog-mobile-img.webp" alt="Responsive image" width="80" height="80" loading="lazy")
+                            //- img(src="assets/images/article-img2.webp", alt="")
+                            .blog-info 
+                                span.blog-label.green-bg(tabindex="0") Tax savings
+                                p.blog-title(tabindex="0") MSME - Registration Benefits and Tax Benefits
+                                span.blog-date(tabindex="0") Feb 29, 2024  |  4 mins read
+
+                    .swiper-slide 
+                        .blog-card
+                            picture
+                                source(media="(min-width: 992px)" srcset="assets/images/article-img2.webp")
+                                img.lazy(src="" data-src="assets/images/blog-mobile-img.webp" alt="Responsive image" width="80" height="80" loading="lazy")
+                            //- img(src="assets/images/article-img1.webp", alt="")
+                            .blog-info 
+                                span.blog-label.yellow-bg(tabindex="0") Tax savings
+                                p.blog-title(tabindex="0") MSME - Registration Benefits and Tax Benefits
+                                span.blog-date(tabindex="0") Feb 29, 2024  |  4 mins read
+
+            .swiper-navigation-btns 
+                .swiper-button-prev.video-prev(tabindex="0")  
+                .swiper-button-next.video-next(tabindex="0")
+            .all-blogs 
+                button.btn.btn-primary.view-all-blogs(tabindex="0") View all blogs
+                                
+

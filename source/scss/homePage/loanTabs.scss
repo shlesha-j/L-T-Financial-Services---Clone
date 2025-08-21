@@ -1,0 +1,314 @@
+@import "../global/mixins",
+"../global/variables";
+
+.loanTabs-section {
+    background-color: #F6F7F8;
+    padding-bottom: 24px;
+
+    .container {
+        @include respond-to(small) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .loan-wrapper {
+        position: relative;
+        z-index: 2;
+        margin-top: -120px;
+
+        @include respond-to(laptop) {
+            margin-top: -100px;
+        }
+
+        @include respond-to(large) {
+            margin-top: -82px;
+        }
+
+        @include respond-to(small) {
+            margin-top: -38px;
+        }
+    }
+
+    .loanTabs-wrapper {
+        background: transparent;
+        display: flex;
+        @include rounded(8px 8px 0 0);
+        @include respond-to(mediumtab) {
+            overflow-x: auto;
+            scrollbar-width: none;
+            padding-top: 9px;
+        }
+
+        .loan-tab {
+            width: 100%;
+            padding: 20px 25px;
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.28) 100%), #FFEEC3;
+            box-shadow: 1px 0 0 0 #E6E1D0 inset;
+            text-align: center;
+            cursor: pointer;
+            white-space: nowrap;
+            position: relative;
+            @include transition(all ,.5s, ease);
+
+            @include respond-to(large) {
+                padding: 20px;
+            }
+
+            @include respond-to(medium) {
+                padding: 10px 20px;
+            }
+
+            &.active {
+                background: $white;
+                // border-left: 0;
+                // transform: translateY(-10px);
+                // padding-top: 26px;
+                border-radius: unset;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    background: $white;
+                    top: -9px;
+                    left: 0;
+                    height: 12px;
+                    border-radius: 0.5rem 0.5rem 0 0;
+                    z-index: -1;
+                    @include transition(all ,.5s, ease);
+                }
+                .tab-topic{
+                    font-family: $font-Pro-ExtraBlackCn;
+                }
+
+                .tab-topic::after {
+                    content: "";
+                    position: absolute;
+                    right: 30%;
+                    bottom: -8px;
+                    width: 32px;
+                    height: 4px;
+                    background: $primary-color;
+                }
+            }
+
+            &:first-child {
+                @include rounded(8px 0 0 0);
+            }
+
+            &:last-child {
+                @include rounded(0 8px 0 0);
+            }
+
+            .tab-topic {
+                color: $black;
+                font-family: $font-Pro-BoldCn;
+                font-size: 16px;
+                line-height: 16px;
+                text-transform: capitalize;
+                position: relative;
+
+                @include respond-to(large) {
+                    font-size: 14px;
+                }
+            }
+
+            img {
+                margin-bottom: 12px;
+
+                @include respond-to(large) {
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+
+
+
+
+    .loanTab-content-wrapper {
+        .loanTab-content {
+            display: none;
+        }
+
+        .loan-content-info {
+            display: flex;
+            align-items: center;
+            padding: 24px 40px;
+            background: $white;
+
+            @include respond-to(large) {
+                display: block;
+                padding: 20px 16px;
+            }
+
+        }
+
+        .loan-img-wrapper {
+            margin-right: 32px;
+
+            @include respond-to(large) {
+                display: none;
+            }
+        }
+
+        .loan-content-desc {
+            margin-right: 28px;
+            max-width: 720px;
+            width: 100%;
+
+            @include respond-to(large) {
+                display: none;
+            }
+
+            .loan-desc {
+                color: $Tertiary-Grey-05;
+                font-family: $font-Pro-Roman;
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            .loan-heading {
+                margin-bottom: 0;
+            }
+        }
+
+        .loan-cal-wrap {
+            margin-left: auto;
+
+            @include respond-to(large) {
+                margin-left: unset;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .cal-emi-wrap {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 24px;
+
+                @include respond-to(large) {
+                    margin-bottom: 0;
+                }
+            }
+
+            .calculate-img {
+                margin-right: 4px;
+            }
+
+            .emi-calc-link {
+                color: $highlight;
+                font-family: $font-bold;
+                font-size: 14px;
+                line-height: 16px;
+                text-decoration-line: underline;
+                white-space: nowrap;
+            }
+        }
+
+        .loan-cards-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+
+            @include respond-to(large) {
+                margin: 0 -8px;
+            }
+
+            @include respond-to(small) {
+                margin: 8px 8px 0 8px;
+            }
+
+        }
+
+        .loan-card {
+            width: 33.33%;
+            padding: 20px 24px;
+            background: $white;
+            border: 1px solid #e5e5e5;
+
+            @include respond-to(large) {
+                width: 31.13%;
+                margin: 8px;
+                text-align: center;
+                @include rounded(8px);
+                border-radius: 8px;
+                border: 1px solid $Tertiary-Grey-07;
+                padding: 16px;
+            }
+
+            @include respond-to(medium) {
+                width: 47%;
+            }
+
+            @include respond-to(medium) {
+                width: 45.9%;
+            }
+
+            @include respond-to(small) {
+                width: 45.3%;
+            }
+
+            .loan-card-title {
+                color: $Tertiary-Grey-01;
+                font-family: $font-Pro-BlackCn;
+                font-size: 22px;
+                letter-spacing: -0.22px;
+                margin-bottom: 8px;
+
+                @include respond-to(large) {
+                    margin-bottom: 12px;
+                    font-size: 14px;
+                }
+            }
+
+            .loan-card-desc {
+                color: $Grey1;
+                font-family: $font-Pro-Roman;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 44px;
+
+                @include respond-to(large) {
+                    display: none;
+                }
+            }
+
+            .loan-card-btn-wrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                @include respond-to(large) {
+                    flex-direction: column;
+                }
+            }
+
+            .knowMoreLink {
+                color: $black;
+                font-family: $font-Pro-Roman;
+                font-size: 14px;
+                line-height: 16px;
+                text-decoration-line: underline;
+                @include transition(all, .5s, ease);
+                @include respond-to(large) {
+                    margin-bottom: 16px;
+                    font-size: 12px;
+                }
+
+                &:hover{
+                    color: $highlight;
+                }
+            }
+
+            .applyNowBtn {
+                padding: 8px 32px;
+            }
+        }
+
+        .active {
+            display: block;
+        }
+    }
+}
