@@ -46,7 +46,7 @@ button:focus-visible {
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  max-width: 1200px;
+  max-width: 75rem;
   width: 100%;
 }
 
@@ -87,23 +87,23 @@ a {
 .sect-heading {
   color: $black;
   font-family: $font-Pro-BlackCn;
-  font-size: 36px;
-  line-height: 59px;
-  letter-spacing: -0.72px;
+  font-size: 2.25rem;
+  line-height: 3.6875rem;
+  letter-spacing: -0.045rem;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 
   @include respond-to(large) {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 1.375rem;
+    line-height: 1.375rem;
   }
 }
 
 .no-outline {
   outline: none !important;
   border: none !important;
-  padding: 6px 12px !important;
-  font-size: 12px !important;
+  padding: 0.375rem 0.75rem !important;
+  font-size: 0.75rem !important;
   z-index: 2;
 }
 
@@ -145,18 +145,18 @@ a {
   }
 
   .swiper-button-prev {
-    left: -55px;
+    left: -3.4375rem;
 
     @include respond-to(mdlaptop) {
-      left: -15px;
+      left: -0.9375rem;
     }
   }
 
   .swiper-button-next {
-    right: -55px;
+    right: -3.4375rem;
 
     @include respond-to(mdlaptop) {
-      right: -15px;
+      right: -0.9375rem;
     }
   }
 
@@ -183,10 +183,10 @@ a {
   content: "";
   display: block;
   width: 0;
-  height: 3px;
+  height: 0.1875rem;
   background: $primary-color;
   margin: 0;
-  border-radius: 2px;
+  border-radius: 0.125rem;
   transition: width 0.5s;
 }
 
@@ -199,18 +199,18 @@ a {
   color: $highlight;
   text-align: right;
   font-family: $font-bold;
-  font-size: 14px;
+  font-size: 0.875rem;
   position: relative;
-  margin-right: 35px;
+  margin-right: 2.1875rem;
   display: none;
 
   &:after {
     position: absolute;
     content: "";
-    width: 7px;
-    height: 7px;
+    width: 0.4375rem;
+    height: 0.4375rem;
     top: 20%;
-    right: -17px;
+    right: -1.0625rem;
     transform: translateY(-50%) rotate(136deg);
     border-top: 2px solid $highlight;
     border-left: 2px solid $highlight;

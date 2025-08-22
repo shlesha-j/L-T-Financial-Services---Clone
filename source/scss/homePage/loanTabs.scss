@@ -3,7 +3,7 @@
 
 .loanTabs-section {
     background-color: #F6F7F8;
-    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
 
     .container {
         @include respond-to(small) {
@@ -15,34 +15,34 @@
     .loan-wrapper {
         position: relative;
         z-index: 2;
-        margin-top: -120px;
+        margin-top: -7.5rem;
 
         @include respond-to(laptop) {
-            margin-top: -100px;
+            margin-top: -6.25rem;
         }
 
         @include respond-to(large) {
-            margin-top: -82px;
+            margin-top: -5.125rem;
         }
 
         @include respond-to(small) {
-            margin-top: -38px;
+            margin-top: -2.375rem;
         }
     }
 
     .loanTabs-wrapper {
         background: transparent;
         display: flex;
-        @include rounded(8px 8px 0 0);
+        @include rounded(0.5rem 0.5rem 0 0);
         @include respond-to(mediumtab) {
             overflow-x: auto;
             scrollbar-width: none;
-            padding-top: 9px;
+            padding-top: 0.5625rem;
         }
 
         .loan-tab {
             width: 100%;
-            padding: 20px 25px;
+            padding: 1.25rem 1.5625rem;
             background: linear-gradient(0deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.28) 100%), #FFEEC3;
             box-shadow: 1px 0 0 0 #E6E1D0 inset;
             text-align: center;
@@ -52,11 +52,11 @@
             @include transition(all ,.5s, ease);
 
             @include respond-to(large) {
-                padding: 20px;
+                padding: 1.25rem;
             }
 
             @include respond-to(medium) {
-                padding: 10px 20px;
+                padding: 0.625rem 1.25rem;
             }
 
             &.active {
@@ -71,9 +71,9 @@
                     position: absolute;
                     width: 100%;
                     background: $white;
-                    top: -9px;
+                    top: -0.5625rem;
                     left: 0;
-                    height: 12px;
+                    height: 0.75rem;
                     border-radius: 0.5rem 0.5rem 0 0;
                     z-index: -1;
                     @include transition(all ,.5s, ease);
@@ -86,39 +86,39 @@
                     content: "";
                     position: absolute;
                     right: 30%;
-                    bottom: -8px;
-                    width: 32px;
-                    height: 4px;
+                    bottom: -0.5rem;
+                    width: 2rem;
+                    height: 0.25rem;
                     background: $primary-color;
                 }
             }
 
             &:first-child {
-                @include rounded(8px 0 0 0);
+                @include rounded(0.5rem 0 0 0);
             }
 
             &:last-child {
-                @include rounded(0 8px 0 0);
+                @include rounded(0 0.5rem 0 0);
             }
 
             .tab-topic {
                 color: $black;
                 font-family: $font-Pro-BoldCn;
-                font-size: 16px;
-                line-height: 16px;
+                font-size: 1rem;
+                line-height: 1rem;
                 text-transform: capitalize;
                 position: relative;
 
                 @include respond-to(large) {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                 }
             }
 
             img {
-                margin-bottom: 12px;
+                margin-bottom: 0.75rem;
 
                 @include respond-to(large) {
-                    margin-bottom: 8px;
+                    margin-bottom: 0.5rem;
                 }
             }
         }
@@ -135,18 +135,18 @@
         .loan-content-info {
             display: flex;
             align-items: center;
-            padding: 24px 40px;
+            padding: 1.5rem 2.5rem;
             background: $white;
 
             @include respond-to(large) {
                 display: block;
-                padding: 20px 16px;
+                padding: 1.25rem 1rem;
             }
 
         }
 
         .loan-img-wrapper {
-            margin-right: 32px;
+            margin-right: 2rem;
 
             @include respond-to(large) {
                 display: none;
@@ -154,8 +154,8 @@
         }
 
         .loan-content-desc {
-            margin-right: 28px;
-            max-width: 720px;
+            margin-right: 1.75rem;
+            max-width: 45rem;
             width: 100%;
 
             @include respond-to(large) {
@@ -165,8 +165,8 @@
             .loan-desc {
                 color: $Tertiary-Grey-05;
                 font-family: $font-Pro-Roman;
-                font-size: 16px;
-                line-height: 24px;
+                font-size: 1rem;
+                line-height: 1.5rem;
             }
 
             .loan-heading {
@@ -187,7 +187,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-bottom: 24px;
+                margin-bottom: 1.5rem;
 
                 @include respond-to(large) {
                     margin-bottom: 0;
@@ -195,14 +195,14 @@
             }
 
             .calculate-img {
-                margin-right: 4px;
+                margin-right: 0.25rem;
             }
 
             .emi-calc-link {
                 color: $highlight;
                 font-family: $font-bold;
-                font-size: 14px;
-                line-height: 16px;
+                font-size: 0.875rem;
+                line-height: 1rem;
                 text-decoration-line: underline;
                 white-space: nowrap;
             }
@@ -213,29 +213,29 @@
             flex-wrap: wrap;
 
             @include respond-to(large) {
-                margin: 0 -8px;
+                margin: 0 -0.5rem;
             }
 
             @include respond-to(small) {
-                margin: 8px 8px 0 8px;
+                margin: 0.5rem 0.5rem 0 0.5rem;
             }
 
         }
 
         .loan-card {
             width: 33.33%;
-            padding: 20px 24px;
+            padding: 1.25rem 1.5rem;
             background: $white;
-            border: 1px solid #e5e5e5;
+            border: 0.0625rem solid #e5e5e5;
 
             @include respond-to(large) {
                 width: 31.13%;
-                margin: 8px;
+                margin: 0.5rem;
                 text-align: center;
-                @include rounded(8px);
-                border-radius: 8px;
-                border: 1px solid $Tertiary-Grey-07;
-                padding: 16px;
+                @include rounded(0.5rem);
+                border-radius: 0.5rem;
+                border: 0.0625rem solid $Tertiary-Grey-07;
+                padding: 1rem;
             }
 
             @include respond-to(medium) {
@@ -253,22 +253,22 @@
             .loan-card-title {
                 color: $Tertiary-Grey-01;
                 font-family: $font-Pro-BlackCn;
-                font-size: 22px;
-                letter-spacing: -0.22px;
-                margin-bottom: 8px;
+                font-size: 1.375rem;
+                letter-spacing: -0.0138rem;
+                margin-bottom: 0.5rem;
 
                 @include respond-to(large) {
-                    margin-bottom: 12px;
-                    font-size: 14px;
+                    margin-bottom: 0.75rem;
+                    font-size: 0.875rem;
                 }
             }
 
             .loan-card-desc {
                 color: $Grey1;
                 font-family: $font-Pro-Roman;
-                font-size: 14px;
-                line-height: 20px;
-                margin-bottom: 44px;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                margin-bottom: 2.75rem;
 
                 @include respond-to(large) {
                     display: none;
@@ -288,13 +288,13 @@
             .knowMoreLink {
                 color: $black;
                 font-family: $font-Pro-Roman;
-                font-size: 14px;
-                line-height: 16px;
+                font-size: 0.875rem;
+                line-height: 1rem;
                 text-decoration-line: underline;
                 @include transition(all, .5s, ease);
                 @include respond-to(large) {
-                    margin-bottom: 16px;
-                    font-size: 12px;
+                    margin-bottom: 1rem;
+                    font-size: 0.75rem;
                 }
 
                 &:hover{
@@ -303,7 +303,7 @@
             }
 
             .applyNowBtn {
-                padding: 8px 32px;
+                padding: 0.5rem 2rem;
             }
         }
 

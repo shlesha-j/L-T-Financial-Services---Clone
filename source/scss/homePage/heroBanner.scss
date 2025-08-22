@@ -3,12 +3,12 @@
 
 .banner-section {
    padding: 0;
-   margin-top: 107px;
+   margin-top: 6.6875rem;
    @include respond-to(laptop){
-      margin-top: 100px;
+      margin-top: 6.25rem;
    }
    @include respond-to(large){
-      margin-top: 90px;
+      margin-top: 5.625rem;
    }
 
    .bannerSwiper {
@@ -17,7 +17,7 @@
             width: 100%;
             height: auto;
             @include respond-to(small){
-               max-height: 160px;
+               max-height: 10rem;
                object-fit: cover;
             }
          }
@@ -32,8 +32,8 @@
       .swiper-pagination-bullet-active {
          // background: $primary-color;
          background: transparent;
-         width: 56px;
-         border-radius: 20px;
+         width: 3.5rem;
+         border-radius: 1.25rem;
          border: 1px solid $primary-color;
          position: relative;
          @include transition(all, 0.6s, ease);
@@ -43,10 +43,10 @@
             // position: absolute;
             // top: 0;
             // left: 0;
-            width: 40px;
+            width: 2.5rem;
             height: 100%;
             display: block;
-            border-radius: 20px;
+            border-radius: 1.25rem;
             background: $primary-color;
             @include transition(all, 0.6s, ease);
          }
@@ -56,7 +56,7 @@
       .hero-content {
          position: absolute;
          top: 15%;
-         width: 720px;
+         width: 45rem;
 
          @include respond-to(large) {
             top: 20%;
@@ -72,50 +72,50 @@
          .hero-title {
             color: $white;
             font-family: $font-Pro-BlackCn;
-            font-size: 56px;
-            line-height: 59px;
-            letter-spacing: -0.56px;
-            margin-bottom: 12px;
+            font-size: 3.5rem;
+            line-height: 3.6875rem;
+            letter-spacing: -0.035rem;
+            margin-bottom: 0.75rem;
 
             @include respond-to(mdlaptop) {
-               font-size: 40px;
-               line-height: 44px;
+               font-size: 2.5rem;
+               line-height: 2.75rem;
             }
 
             @include respond-to(large) {
-               font-size: 25px;
-               line-height: 44px;
+               font-size: 1.5625rem;
+               line-height: 2.75rem;
             }
 
             @include respond-to(small) {
-               font-size: 20px;
-               line-height: 24px;
-               width: 230px;
-               margin-bottom: 15px;
+               font-size: 1.25rem;
+               line-height: 1.5rem;
+               width: 14.375rem;
+               margin-bottom: 0.9375rem;
             }
          }
 
          .hero-subtitle {
             color: $white;
             font-family: $font-Pro-Roman;
-            font-size: 20px;
-            line-height: 26px;
-            letter-spacing: -0.2px;
-            margin-bottom: 50px;
+            font-size: 1.25rem;
+            line-height: 1.625rem;
+            letter-spacing: -0.0125rem;
+            margin-bottom: 3.125rem;
 
             @include respond-to(mdlaptop) {
-               margin-bottom: 25px;
+               margin-bottom: 1.5625rem;
             }
 
             @include respond-to(mediumtab) {
-               margin-bottom: 25px;
+               margin-bottom: 1.5625rem;
             }
 
             @include respond-to(large) {
-               font-size: 18px;
-               line-height: 20px;
-               letter-spacing: -0.2px;
-               margin-bottom: 19px;
+               font-size: 1.125rem;
+               line-height: 1.25rem;
+               letter-spacing: -0.0125rem;
+               margin-bottom: 1.1875rem;
             }
 
             @include respond-to(medium) {
@@ -128,14 +128,14 @@
          bottom: 20%;
          left: 50%;
          width: unset;
-         @include rounded(60px);
+         @include rounded(3.75rem);
          background: rgba(0, 0, 0, 0.25);
-         backdrop-filter: blur(7px);
+         backdrop-filter: blur(0.4375rem);
 
          @include respond-to(large) {
             bottom: 40%;
             text-align: right;
-            right: 35px;
+            right: 2.1875rem;
             left: unset;
          }
          @include respond-to(mobile){

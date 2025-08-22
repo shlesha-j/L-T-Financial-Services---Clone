@@ -2,21 +2,21 @@
 "../global/variables";
 
 footer {
-    padding: 40px 0;
+    padding: 2.5rem 0;
     background: $white;
 
     @include respond-to(large) {
-        padding: 32px 0;
+        padding: 2rem 0;
     }
 
     .footer-wrap {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
 
         @include respond-to(large) {
             flex-direction: column;
-            margin-bottom: 24px;
+            margin-bottom: 1.5rem;
         }
 
         .mobile-view-logo {
@@ -24,17 +24,17 @@ footer {
 
             @include respond-to(large) {
                 display: block;
-                margin-bottom: 32px;
+                margin-bottom: 2rem;
             }
         }
 
         .footer-col-part {
             @include respond-to(large) {
-                border-bottom: 1px solid #b0b0b0;
+                border-bottom: 0.0625rem solid #b0b0b0;
             }
 
             &:not(:last-child) {
-                margin-bottom: 40px;
+                margin-bottom: 2.5rem;
 
                 @include respond-to(large) {
                     margin-bottom: 0;
@@ -45,19 +45,19 @@ footer {
             .col-title {
                 color: $black;
                 font-family: $font-bold;
-                font-size: 16px;
-                line-height: 24px;
-                margin-bottom: 16px;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                margin-bottom: 1rem;
 
                 @include respond-to(large) {
-                    margin: 12px 0;
+                    margin: 0.75rem 0;
                     position: relative;
 
                     &::before {
                         content: '+';
                         position: absolute;
-                        right: 10px;
-                        font-size: 20px;
+                        right: 0.625rem;
+                        font-size: 1.25rem;
                     }
 
                     &.active::before {
@@ -68,7 +68,7 @@ footer {
 
             .office-detail-head {
                 @include respond-to(large) {
-                    margin: 0 0 8px 0;
+                    margin: 0 0 0.5rem 0;
 
                     &::before {
                         content: unset;
@@ -90,7 +90,7 @@ footer {
 
         .footer-col {
             width: 15%;
-            padding-right: 10px;
+            padding-right: 0.625rem;
 
             @include respond-to(large) {
                 width: 100%;
@@ -102,7 +102,7 @@ footer {
             padding-right: 0;
 
             @include respond-to(large) {
-                margin-top: 32px;
+                margin-top: 2rem;
             }
         }
 
@@ -116,25 +116,25 @@ footer {
                 @include transition(all, 1.5s, ease);
 
                 @include respond-to(large) {
-                    margin: 16px 0;
+                    margin: 1rem 0;
 
                     &::after {
                         position: absolute;
                         content: "";
-                        width: 4px;
-                        height: 4px;
+                        width: 0.25rem;
+                        height: 0.25rem;
                         top: 20%;
-                        right: 13px;
+                        right: 0.8125rem;
                         transform: translateY(-50%) rotate(136deg);
-                        border-top: 1px solid #1C1B1F;
-                        border-left: 1px solid #1C1B1F;
+                        border-top: 0.0625rem solid #1C1B1F;
+                        border-left: 0.0625rem solid #1C1B1F;
                         cursor: pointer;
                         transition: all .3s ease;
                     }
                 }
 
                 &:not(:last-child) {
-                    margin-bottom: 12px;
+                    margin-bottom: 0.75rem;
                 }
 
                 &:hover {
@@ -147,36 +147,36 @@ footer {
 
 
             .new-label {
-                padding: 4px 6px;
+                padding: 0.25rem 0.375rem;
                 background: #00A3DA;
-                font-size: 10px;
-                line-height: 18px;
+                font-size: 0.625rem;
+                line-height: 1.125rem;
                 color: $white;
-                letter-spacing: 0.6px;
+                letter-spacing: 0.0375rem;
                 text-transform: uppercase;
                 font-family: $font-Pro-BlackCn;
-                @include rounded(4px);
-                margin-left: 8px;
+                @include rounded(0.25rem);
+                margin-left: 0.5rem;
             }
         }
 
         .footer-sub-links {
             position: absolute;
-            min-width: 224px;
+            min-width: 14rem;
             top: 50%;
             left: 76%;
             transform: translateY(-3%);
             background: #f1f9fc;
-            padding: 10px;
+            padding: 0.625rem;
             z-index: 2;
             font-family: $font-Pro-Roman;
             visibility: hidden;
             opacity: 0;
-            @include rounded(8px);
+            @include rounded(0.5rem);
 
             a {
-                font-size: 12px;
-                line-height: 16px;
+                font-size: 0.75rem;
+                line-height: 1rem;
                 color: #404040;
             }
         }
@@ -184,8 +184,8 @@ footer {
         .footer-link {
             color: $Grey1;
             font-family: $font-Pro-Roman;
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 0.75rem;
+            line-height: 1rem;
             @include transition(all, .3s, ease);
             position: relative;
 
@@ -198,10 +198,10 @@ footer {
             &:after {
                 content: "";
                 position: absolute;
-                width: 4px;
-                height: 4px;
-                top: 9px;
-                right: -11px;
+                width: 0.25rem;
+                height: 0.25rem;
+                top: 0.5625rem;
+                right: -0.6875rem;
                 -ms-transform: translateY(-50%) rotate(136deg);
                 transform: translateY(-50%) rotate(136deg);
                 border-top: 1px solid $Grey1;
@@ -216,11 +216,11 @@ footer {
         }
 
         .social-icons {
-            margin: 24px 0;
+            margin: 1.5rem 0;
 
             a {
-                width: 32px;
-                height: 32px;
+                width: 2rem;
+                height: 2rem;
                 @include rounded(50%);
                 display: inline-flex;
                 justify-content: center;
@@ -234,18 +234,18 @@ footer {
                 }
 
                 &:not(:last-child) {
-                    margin-right: 16px;
+                    margin-right: 1rem;
                 }
 
                 @include respond-to(extralarge) {
                     &:not(:last-child) {
-                        margin-right: 8px;
+                        margin-right: 0.5rem;
                     }
                 }
 
                 @include respond-to(large) {
                     &:not(:last-child) {
-                        margin-right: 12px;
+                        margin-right: 0.75rem;
                     }
                 }
             }
@@ -267,9 +267,9 @@ footer {
         .office-address {
             color: $Grey1;
             font-family: $font-Pro-Roman;
-            font-size: 12px;
-            line-height: 16px;
-            margin-bottom: 10px;
+            font-size: 0.75rem;
+            line-height: 1rem;
+            margin-bottom: 0.625rem;
             @include transition(all, .3s, ease);
 
             &:hover {
@@ -280,8 +280,8 @@ footer {
         .office-contact {
             color: $Grey1;
             font-family: $font-Pro-Roman;
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 0.75rem;
+            line-height: 1rem;
             @include transition(all, .3s, ease);
 
             &:hover {
@@ -289,7 +289,7 @@ footer {
             }
 
             @include respond-to(large) {
-                margin-bottom: 16px;
+                margin-bottom: 1rem;
             }
         }
 
@@ -307,24 +307,24 @@ footer {
         p {
             color: #808080;
             font-family: $font-Pro-Roman;
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 0.75rem;
+            line-height: 1rem;
         }
 
         .policy-links {
             @include respond-to(large) {
-                margin-bottom: 16px;
+                margin-bottom: 1rem;
             }
 
             a {
                 color: $Grey1;
                 font-family: $font-Pro-Roman;
-                font-size: 12px;
-                line-height: 16px;
+                font-size: 0.75rem;
+                line-height: 1rem;
                 position: relative;
 
                 &:not(:last-child) {
-                    margin-right: 10px;
+                    margin-right: 0.625rem;
                 }
             }
         }
@@ -333,13 +333,13 @@ footer {
     #scroll-to-top {
         display: inline-block;
         background-color: $primary-color;
-        width: 50px;
-        height: 50px;
+        width: 3.125rem;
+        height: 3.125rem;
         text-align: center;
         border-radius: 50%;
         position: fixed;
-        bottom: 50px;
-        right: 90px;
+        bottom: 3.125rem;
+        right: 5.625rem;
         transition: background-color .3s,
             opacity .5s, visibility .5s;
         opacity: 0;
@@ -355,13 +355,13 @@ footer {
         }
 
         @include respond-to(large) {
-            right: 10px;
-            width: 40px;
-            height: 40px;
+            right: 0.625rem;
+            width: 2.5rem;
+            height: 2.5rem;
 
             img{
-                width: 20px;
-                height: 20px;
+                width: 1.25rem;
+                height: 1.25rem;
             }
         }
     }
